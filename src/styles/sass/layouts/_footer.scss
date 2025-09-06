@@ -1,0 +1,64 @@
+@use "../mixins" as *;
+@use "../variables";
+@use "../functions" as *;
+
+footer {
+  width: 100%;
+  background: rgb(49, 82, 91);
+  background: linear-gradient(
+    239deg,
+    rgba(49, 82, 91, 1) 0%,
+    rgb(220, 192, 113) 46%,
+    rgba(49, 82, 91, 1) 100%
+  );
+  height: auto;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+
+
+
+  .navigation-section {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    a {
+      text-decoration: none;
+      cursor: pointer;
+      font-weight: light;
+      color : white;
+      @include link-behavior(clr(secondary, blue), clr(primary, yellow));
+      position: relative;
+    }
+
+    @include mq(phone) {
+      flex-direction: column;
+      justify-content: center;
+      gap: 1rem;
+    }
+
+    ul {
+      padding: 0;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+      list-style-type: none;
+      font-size: ft-sz(100);
+      color: clr(secondary, yellow);
+
+      li {
+        cursor: pointer;
+        font-weight: light;
+        color : clr(secondary, blue);
+        @include link-behavior(clr(secondary, blue) ,clr(primary, yellow) );
+
+      }
+    }
+  }
+}

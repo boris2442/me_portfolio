@@ -1,0 +1,214 @@
+@use "../mixins" as *;
+@use "../variables";
+@use "../functions" as *;
+
+.home {
+    position: relative;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12rem;
+  color : clr(primary , blue);
+
+  @include mq(tablet-wide) {
+    gap: 6rem;
+  }
+
+  @include mq(tablet) {
+    gap: 1rem;
+  }
+
+  @include mq(tablet-small) {
+    flex-direction: column-reverse;
+  }
+
+  @include mq(phone , $max : false){
+    margin-top: 1.5rem;
+  }
+
+  &::after{
+    content: '';
+    height: 350px;
+    width: 200px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: clr(secondary , blue);
+    opacity: .25;
+    border-radius:   51% 49% 100% 0% / 45% 69% 31% 55% ;
+
+    @include mq(tablet) {
+        display: none;
+      }
+  }
+
+  &::before{
+    content: '';
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 12%;
+    left: 30%;
+    background: clr(primary , yellow);
+    opacity: .2;
+    border-radius:  77% 23% 46% 54% / 45% 53% 47% 55% ;
+
+    @include mq(tablet) {
+        display: none;
+      }
+  }
+
+  .catch-phrase {
+    color: clr(primary, base);
+    position: relative;
+
+    h1{
+        span{
+            @include fade-bg-text(clr(primary, yellow))
+        }
+    }
+
+    span {
+      color: clr(primary, yellow);
+    }
+
+    .buttons {
+      margin: 1rem 0;
+      display: flex;
+
+      button {
+        height: 2rem;
+        border: none;
+        border-radius: 3px;
+        cursor: pointer;
+        padding: 0 1rem;
+        color: white;
+      }
+
+      .hire-me {
+        background: clr(primary, blue);
+        border: solid 1px transparent;
+        transition: all .5s;
+
+        &:hover{
+            color: clr(primary, blue);
+            @include border(
+                $color: rgba(0, 0, 0, 0.145),
+                $style: solid,
+                $width: 1px,
+                $radius: 3px
+              ); 
+              background: clr(secondary, base);
+        }
+      }
+
+      .cv {
+        background: transparent;
+        color: clr(primary, blue);
+        @include border(
+          $color: rgba(0, 0, 0, 0.145),
+          $style: solid,
+          $width: 1px,
+          $radius: 3px
+        );
+        transition: all .5s;
+        a{
+          color: clr(primary, blue);
+          text-decoration: none;
+          width: 100%;
+          display: inline-block;
+          height: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+
+          &:hover{
+            color: white;
+          }
+        }
+
+        &:hover{
+            background: clr(primary, blue);
+            border-color: transparent;
+            color: white;
+        }
+      }
+    }
+  }
+
+  .profil {
+    position: relative;
+
+    &::before {
+      content: "";
+      width: 95%;
+      height: 400px;
+      background: linear-gradient(
+        239deg,
+        rgba(49, 82, 91, 1) 0%,
+        rgb(220, 192, 113) 46%,
+        rgba(49, 82, 91, 1) 100%
+      );
+      @include border(
+        $color: clr(primary, yellow),
+        $style: solid,
+        $width: 0px,
+        $radius: 30% 70% 70% 30% / 30% 30% 70% 70%
+      );
+      position: absolute;
+      top: 62%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      z-index: -20;
+    }
+
+    .freelancer,
+    .developper {
+      position: absolute;
+      color: clr(primary, blue);
+      background: white;
+      box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+      border-radius: 5px;
+      font-size: ft-sz(100);
+      padding: 5px;
+      display: flex;
+      align-items: center;
+
+      .check {
+        width: 1.5rem;
+        height: 1.5rem;
+        margin: 0 0.6rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        border-radius: 100%;
+        color: clr(secondary, base);
+      }
+
+      p {
+        opacity: 0.55;
+        font-size: ft-sz(50);
+      }
+    }
+
+    .freelancer {
+      top: 40%;
+
+      .check {
+        background: clr(primary, yellow);
+      }
+    }
+
+    .developper {
+      right: 0;
+      bottom: 5%;
+      
+
+      .check {
+        background: clr(primary, base);
+      }
+    }
+  }
+}

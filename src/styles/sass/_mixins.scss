@@ -1,0 +1,52 @@
+@use "variables" as *;
+@use 'functions' as *;
+
+@mixin link-behavior($initcolor, $color) {
+  color: $initcolor;
+  &:hover,
+  &:focus,
+  &:active {
+    color: $color;
+  }
+}
+
+@mixin border($color: black, $style: solid, $width: 1px, $radius: 5px) {
+  border-style: $style;
+  border-width: $width;
+  border-color: $color;
+  border-radius: $radius;
+  -webkit-border-radius: $radius;
+}
+
+@mixin mq($target, $max: true) {
+  $size: map-get($breakpoints, $target);
+
+  @if $max {
+    @media only screen and (max-width: $size) {
+      @content;
+    }
+  } @else {
+    @media only screen and (min-width: $size) {
+      @content;
+    }
+  }
+}
+
+@mixin fade-bg-text($color : black){
+  background: linear-gradient(to right, $color 0, clr(primary , blue) 10%, $color);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shine 10s infinite  ease-in;
+
+  @keyframes shine {
+    0% {
+      background-position: left;
+    }
+    60% {
+      background-position: 500px;
+    }
+    100% {
+      background-position: right;
+    }
+  }
+}
