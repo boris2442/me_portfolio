@@ -1,0 +1,139 @@
+{
+  "navigation": {
+    "home": "Accueil",
+    "about": "À propos de moi",
+    "services": "Services",
+    "experiences": "Expériences",
+    "projects": "Projets"
+  },
+  "header": {
+    "logo_first": "A",
+    "logo_last": "ubin",
+    "contact": "Contactez-moi"
+  },
+  "home": {
+    "greeting": "Salut, je suis Aubin",
+    "role": "Développeur logiciel",
+    "description": "Je conçois et développe de belles applications web et j'aime ce que je fais",
+    "download_cv": "Télécharger mon CV",
+    "web_developer_title": "Développeur Web",
+    "web_developer_desc": "Des sites créatifs pour vous",
+    "freelancer_title": "Freelance",
+    "freelancer_desc": "Vous pouvez m'engager dès maintenant"
+  },
+  "about": {
+    "title": "À propos de moi",
+    "subtitle": "Développer avec passion tout en explorant le monde.",
+    "description": "Depuis le début de mon parcours en tant que développeur web, j'ai travaillé à distance pour des agences, conseillé des startups et collaboré avec des personnes talentueuses pour créer des produits numériques pour les entreprises et les particuliers. Je suis discrètement confiant, naturellement curieux et je travaille sans cesse à améliorer mes compétences et ma capacité à résoudre des problèmes.",
+    "contact": "Contactez-moi",
+    "follow": "Vous pouvez aussi me suivre ici :",
+    "github": "GITHUB",
+    "linkedin": "LINKEDIN",
+    "freecodecamp": "FREECODECAMP"
+  },
+  "services": {
+    "title": "Quels services je propose ?",
+    "backend": {
+      "title": "Backend",
+      "desc": "En plus du frontend, je maîtrise aussi le backend et je m'y sens très à l'aise",
+      "languages": "Langages : Javascript avec NodeJs/ExpressJs, Php avec Laravel"
+    },
+    "frontend": {
+      "title": "Frontend",
+      "desc": "J'aime coder à partir de zéro et donner vie aux idées dans le navigateur.",
+      "languages": "Langage : Javascript avec VueJs, ReactJs, TailwindCss"
+    },
+    "sale": {
+      "title": "Vente de matériel électronique",
+      "desc1": "Vente de PC, smartphones et accessoires neufs ou d'occasion",
+      "desc2": "Conseils personnalisés et support après-vente"
+    },
+    "uxui": {
+      "title": "UX / UI",
+      "desc": "J'apprécie les structures de contenu simples et les designs épurés.",
+      "tools": "Outils : Figma, Photoshop"
+    },
+    "branding": {
+      "title": "Branding & Identité visuelle",
+      "desc1": "Logos, chartes graphiques, visuels pour réseaux sociaux",
+      "desc2": "Cohérence graphique pour entreprises et produits"
+    },
+    "ecommerce": {
+      "title": "E-commerce / Création de boutique en ligne",
+      "desc1": "Création et optimisation de sites marchands (comme BorisTech)",
+      "desc2": "Gestion des paiements en ligne (Orange Money, PayPal, cartes bancaires)"
+    },
+    "maintenance": {
+      "title": "Maintenance et optimisation web",
+      "desc1": "Amélioration des performances, SEO, accessibilité",
+      "desc2": "Mise à jour et sécurisation des sites existants"
+    },
+    "project": {
+      "title": "Gestion de projet digital",
+      "desc1": "Planification, suivi et coordination de projets web",
+      "desc2": "Lien entre design, développement et client"
+    }
+  },
+  "experiences": {
+    "title": "Expériences professionnelles",
+    "period": "2024 - Aujourd'hui",
+    "frontend": {
+      "title": "Frontend",
+      "desc": "Développement de la partie visible des sites et applications web. C’est la partie que les utilisateurs voient et avec laquelle ils interagissent.",
+      "skills": ["React Js", "TailwindCss", "Vue.js"]
+    },
+    "uiux": {
+      "title": "UX / UI",
+      "desc": "Principes de design interactif et visuel pour une expérience utilisateur positive et cohérente sur les sites et applications web.",
+      "skills": ["Figma", "Adobe Xd", "Canvas", "Photoshop"]
+    },
+    "backend": {
+      "title": "Backend",
+      "desc": "Création et maintenance des mécanismes qui traitent les données, assurent la sécurité et exécutent les actions sur les sites web.",
+      "skills": ["Laravel", "NodeJs", "Express Js", "Mongo DB ( Mongoose )"]
+    }
+  },
+  "projects": {
+    "title": "Mes projets récents",
+    "chataw": {
+      "desc": "Une plateforme dédiée à l’organisation d’événements, offrant des services de restauration personnalisés pour mariages, séminaires et réceptions.",
+      "view": "Voir plus"
+    },
+    "quiz": {
+      "desc": "Une application de gestion étudiante permettant de suivre les paiements, les cours et les informations académiques personnelles efficacement.",
+      "view": "Voir plus"
+    },
+    "spes": {
+      "desc": "Un système complet de gestion pour God Fashion qui facilite les commandes, le stock et les interactions clients, développé avec Laravel et Tailwind CSS.",
+      "view": "Voir plus"
+    },
+    "streaming": {
+      "desc": "Une plateforme e-commerce pour Boris Tech permettant de parcourir, commander et payer des appareils électroniques en toute sécurité, développée avec Laravel et Tailwind CSS.",
+      "view": "Voir plus"
+    }
+  },
+  "contact": {
+    "title": "Contactez-moi",
+    "name": "Votre nom",
+    "email": "Votre email",
+    "message": "Votre message",
+    "send": "Envoyer",
+    "sending": "Envoi...",
+    "success": "Votre email a été envoyé avec succès.",
+    "error": "Une erreur est survenue !"
+  },
+  "footer": {
+    "navigation": {
+      "home": "Accueil",
+      "about": "À propos de moi",
+      "services": "Services",
+      "experiences": "Expériences",
+      "projects": "Projets"
+    },
+    "media": {
+      "github": "GitHub",
+      "linkedin": "LinkedIn",
+      "freecodecamp": "FreeCodeCamp"
+    }
+  }
+}

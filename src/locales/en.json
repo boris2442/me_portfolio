@@ -1,0 +1,139 @@
+{
+  "navigation": {
+    "home": "Home",
+    "about": "About me",
+    "services": "Services",
+    "experiences": "Experiences",
+    "projects": "Projects"
+  },
+  "header": {
+    "logo_first": "A",
+    "logo_last": "ubin",
+    "contact": "Contact me"
+  },
+  "home": {
+    "greeting": "Hi , I am Aubin",
+    "role": "Software Developer",
+    "description": "I Design and code beautifully Web Application and I love what I do",
+    "download_cv": "Download My Cv",
+    "web_developer_title": "Web Developer",
+    "web_developer_desc": "Creatives Websites for you",
+    "freelancer_title": "Freelancer",
+    "freelancer_desc": "You can hire me now"
+  },
+  "about": {
+    "title": "About me",
+    "subtitle": "Developing With a Passion While Exploring The World.",
+    "description": "Since beginning my journey as a Web developer, I've done remote work for agencies, consulted for startups, and collaborated with talented people to create digital products for both business and consumer use. I’m quietly confident, naturally curious, and perpetually working on improving my chops and problem solving.",
+    "contact": "Contact me",
+    "follow": "You can also follow me here:",
+    "github": "GITHUB",
+    "linkedin": "LINKEDIN",
+    "freecodecamp": "FREECODECAMP"
+  },
+  "services": {
+    "title": "What Services I'm Providing?",
+    "backend": {
+      "title": "Backend",
+      "desc": "Apart from doing the frontend, I also do the backend well and I feel very comfortable on the backend side",
+      "languages": "Languages: Javascript with NodeJs/ExpressJs, Php with Laravel"
+    },
+    "frontend": {
+      "title": "Frontend",
+      "desc": "I like code things from scratch, and enjoy bringing ideas to life in browser.",
+      "languages": "Language: Javascript with VueJs, ReactJs, TailwindCss"
+    },
+    "sale": {
+      "title": "Sale of electronic equipment",
+      "desc1": "Sale of new or used PCs, smartphones and accessories",
+      "desc2": "Personalized advice and after-sales support"
+    },
+    "uxui": {
+      "title": "UX / UI",
+      "desc": "I value simple content structure, clean design patterns.",
+      "tools": "Tools: Figma, Photoshop"
+    },
+    "branding": {
+      "title": "Branding & Visual Identity",
+      "desc1": "Logos, chartes graphiques, visuels pour réseaux sociaux",
+      "desc2": "Graphic consistency for businesses and products"
+    },
+    "ecommerce": {
+      "title": "E-commerce / Online store development",
+      "desc1": "Creation and optimization of merchant sites (like BorisTech)",
+      "desc2": "Online payment management (Orange Money, PayPal, bank cards)"
+    },
+    "maintenance": {
+      "title": "Web maintenance and optimization",
+      "desc1": "Improved performance, SEO, accessibility",
+      "desc2": "Updating and securing existing sites"
+    },
+    "project": {
+      "title": "Digital project management",
+      "desc1": "Planning, monitoring and coordination of web projects",
+      "desc2": "Liaison between design, development and client"
+    }
+  },
+  "experiences": {
+    "title": "Work Experiences",
+    "period": "2024 - Now",
+    "frontend": {
+      "title": "Frontend",
+      "desc": "Build the front-end portion of websites and web applications. The part users see and interact with.",
+      "skills": ["React Js", "TailwindCss", "Vue.js"]
+    },
+    "uiux": {
+      "title": "UX / UI",
+      "desc": "Interactive and visual design principles on websites and web applications for a positive and cohesive user experience.",
+      "skills": ["Figma", "Adobe Xd", "Canvas", "Photoshop"]
+    },
+    "backend": {
+      "title": "Backend",
+      "desc": "Build and maintain the mechanisms that process data, security and perform actions on websites.",
+      "skills": ["Laravel", "NodeJs", "Express Js", "Mongo DB ( Mongoose )"]
+    }
+  },
+  "projects": {
+    "title": "My Recents Projects",
+    "chataw": {
+      "desc": "A platform dedicated to event planning, offering personalized catering services for weddings, seminars and receptions.",
+      "view": "View more"
+    },
+    "quiz": {
+      "desc": "A student management app that allows users to track payments, courses, and personal academic information efficiently",
+      "view": "View more"
+    },
+    "spes": {
+      "desc": "A complete management system for God Fashion that streamlines orders, stock, and client interactions, built with Laravel and Tailwind CSS.",
+      "view": "View more"
+    },
+    "streaming": {
+      "desc": "An e-commerce platform for Boris Tech that allows users to browse, order, and pay for electronic devices securely, built with Laravel and Tailwind CSS.",
+      "view": "View more"
+    }
+  },
+  "contact": {
+    "title": "Contact Me",
+    "name": "Your Name",
+    "email": "Your Email",
+    "message": "Your Message",
+    "send": "Send",
+    "sending": "Sending...",
+    "success": "Your email has been sent successfully.",
+    "error": "An error occurred!"
+  },
+  "footer": {
+    "navigation": {
+      "home": "Home",
+      "about": "About me",
+      "services": "Services",
+      "experiences": "Experiences",
+      "projects": "Projects"
+    },
+    "media": {
+      "github": "GitHub",
+      "linkedin": "LinkedIn",
+      "freecodecamp": "FreeCodeCamp"
+    }
+  }
+}

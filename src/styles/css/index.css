@@ -1132,17 +1132,57 @@ section h2::after {
 }
 
 /*# sourceMappingURL=index.css.map */
-@media  screen and (max-width: 500px) {
+@media screen and (max-width: 845px) {
   .home .catch-phrase {
     padding: 0 20px;
   }
-   .home img{
+
+  /* .home img{
     margin: 0 20px !important;
+  } */
+}
+
+@media screen and (max-width: 400px) {
+
+  .home img {
+    visibility: hidden;
   }
 }
-@media  screen and (max-width: 400px) {
-  
-   .home img{
-  visibility: hidden;
-  }
+
+
+
+/* Languages */
+
+.lang-switcher {
+  padding: 6px 16px;
+  border-radius: 4px;
+  border: 1px solid #2d2d2d;
+  background: #EEA01E;
+  color: #fff;
+  font-weight: 600;
+  font-size: 12px;
+  margin-left: 1rem;
+  transition: border 0.2s, background 0.2s;
+}
+
+.lang-switcher:focus {
+  border: 1.5px solid #EEA01E;
+  outline: none;
+  background: #EEA01E;
+}
+
+.lang-switcher option {
+  background: #EEA01E;
+  color: #fff;
+}
+
+
+::selection {
+  background: #EEA01E;
+  color: #fff;
+}
+
+::-moz-selection {
+  background: #EEA01E;
+  color: #fff;
 }
