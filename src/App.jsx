@@ -6,7 +6,7 @@ import About from "./components/About";
 import Services from "./components/Services";
 import Experiences from "./components/Experiences";
 import Projects from "./components/Projects";
-// import Contact from "./components/Contact";
+import Contact from "./components/Contact";
 import "./styles/css/index.css";
 import 'aos/dist/aos.css'
 import AOS from 'aos'
@@ -27,7 +27,7 @@ function App() {
       <Services/>
       <Experiences/>
       <Projects/>
-      {/* <Contact/> */}
+      <Contact/>
       <Toaster/>
       </main>
       <Footer/>

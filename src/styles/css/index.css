@@ -683,17 +683,19 @@ nav .cancel-hamburger {
   gap: 0.5rem;
 }
 .experiences .content > div .pourcentage > div {
-  border-style: solid;
+  border-style: dotted;
   border-width: 1px;
-  border-color: rgba(113, 111, 111, 0.109);
+  border-color: #ffa101;
   border-radius: 5px;
   -webkit-border-radius: 5px;
-  height: 1rem;
+  height: 1.5rem;
+ 
 }
 .experiences .content > div .pourcentage > div div {
   height: 100%;
+  /* width: 70%; */
   width: 70%;
-  background: #fae6b1;
+  /* background: #fae6b1; */
   display: flex;
   align-items: center;
   justify-content: start;
@@ -701,8 +703,9 @@ nav .cancel-hamburger {
 .experiences .content > div .pourcentage > div div span {
   font-size: 0.6rem;
   margin: 7px;
+   /* padding: 8px 3px; */
 }
-.experiences .content > div .pourcentage > div .react {
+/* .experiences .content > div .pourcentage > div .react {
   width: 80%;
 }
 .experiences .content > div .pourcentage > div .tailwind {
@@ -737,7 +740,7 @@ nav .cancel-hamburger {
 }
 .experiences .content > div .pourcentage > div .typescript {
   width: 68%;
-}
+} */
 
 .projects {
   color: #31525b;
