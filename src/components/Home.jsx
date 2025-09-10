@@ -4,7 +4,7 @@ import mycv from '../assets/Credo-CV.pdf'
 
 export default function () {
   return (
-    <section  id="Home" className="home">
+    <section id="Home" className="home">
       <div data-aos='fade-right' className="catch-phrase">
         <h1>
           Hi , I am Aubin <br /> <span>Software Developer</span>
@@ -17,9 +17,9 @@ export default function () {
           <button className="cv"> <a download="Credo-CV.pdf" href={mycv} >Download My Cv</a></button>
         </div>
       </div>
-      <div  className="profil">
+      <div className="profil">
         <img width={400} height={550} src={profil} alt="" srcset="" />
-        <div  data-aos='fade-up' className="developper">
+        <div data-aos='fade-up' className="developper">
           <div className="check">
             <FaCheck />
           </div>
@@ -28,7 +28,7 @@ export default function () {
             <p>Creatives Websites for you </p>
           </div>
         </div>
-        <div  data-aos='fade-down' className="freelancer">
+        <div data-aos='fade-down' className="freelancer">
           <div className="check">
             <FaCheck />
           </div>

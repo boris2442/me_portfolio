@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap");
+
 footer {
   width: 100%;
   background: rgb(49, 82, 91);
@@ -10,12 +11,14 @@ footer {
   align-items: center;
   justify-content: space-around;
 }
+
 footer .navigation-section {
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
+
 footer .navigation-section a {
   text-decoration: none;
   cursor: pointer;
@@ -24,9 +27,13 @@ footer .navigation-section a {
   color: #b3dee5;
   position: relative;
 }
-footer .navigation-section a:hover, footer .navigation-section a:focus, footer .navigation-section a:active {
+
+footer .navigation-section a:hover,
+footer .navigation-section a:focus,
+footer .navigation-section a:active {
   color: #ffa101;
 }
+
 @media only screen and (max-width: 500px) {
   footer .navigation-section {
     flex-direction: column;
@@ -34,6 +41,7 @@ footer .navigation-section a:hover, footer .navigation-section a:focus, footer .
     gap: 1rem;
   }
 }
+
 footer .navigation-section ul {
   padding: 0;
   margin: 0;
@@ -45,13 +53,17 @@ footer .navigation-section ul {
   font-size: 0.75rem;
   color: #fae6b1;
 }
+
 footer .navigation-section ul li {
   cursor: pointer;
   font-weight: light;
   color: #b3dee5;
   color: #b3dee5;
 }
-footer .navigation-section ul li:hover, footer .navigation-section ul li:focus, footer .navigation-section ul li:active {
+
+footer .navigation-section ul li:hover,
+footer .navigation-section ul li:focus,
+footer .navigation-section ul li:active {
   color: #ffa101;
 }
 
@@ -69,6 +81,7 @@ header {
   position: fixed;
   top: 0;
 }
+
 header .logo {
   display: flex;
   align-items: flex-end;
@@ -77,6 +90,7 @@ header .logo {
   cursor: pointer;
   color: #31525b;
 }
+
 header .logo .first-letter {
   font-size: 1.5rem;
   font-weight: bolder;
@@ -85,6 +99,7 @@ header .logo .first-letter {
   color: white;
   border-radius: 3px;
 }
+
 header button {
   margin: 1rem;
   padding: 0.3rem 1rem;
@@ -95,19 +110,23 @@ header button {
   cursor: pointer;
   transition: all 0.5s ease;
 }
+
 header button a {
   text-decoration: none;
   color: #f5f5f5;
 }
+
 @media only screen and (max-width: 760px) {
   header button {
     display: none;
   }
 }
+
 header button:hover {
   border: solid #ffa101 2px;
   background: transparent;
 }
+
 header button:hover a {
   color: #ffa101;
 }
@@ -123,11 +142,13 @@ nav ul {
   font-size: 1rem;
   color: #31525b;
 }
+
 @media only screen and (max-width: 760px) {
   nav ul {
     display: none;
   }
 }
+
 nav ul a {
   text-decoration: none;
   cursor: pointer;
@@ -135,9 +156,13 @@ nav ul a {
   color: #31525b;
   position: relative;
 }
-nav ul a:hover, nav ul a:focus, nav ul a:active {
+
+nav ul a:hover,
+nav ul a:focus,
+nav ul a:active {
   color: #ffa101;
 }
+
 nav ul a .active::after {
   content: "";
   position: absolute;
@@ -148,11 +173,13 @@ nav ul a .active::after {
   background: #fae6b1;
   border-radius: 2px;
 }
+
 nav .hamburger {
   display: none;
   cursor: pointer;
   color: #31525b;
 }
+
 @media only screen and (max-width: 760px) {
   nav .hamburger {
     display: inline;
@@ -160,6 +187,7 @@ nav .hamburger {
     font-size: 1.875rem;
   }
 }
+
 nav .cancel-hamburger {
   position: absolute;
   right: 1.5rem;
@@ -167,6 +195,7 @@ nav .cancel-hamburger {
   z-index: 20;
   color: #31525b;
 }
+
 @media only screen and (max-width: 760px) {
   nav .mobile-menu {
     margin: 0;
@@ -183,10 +212,12 @@ nav .cancel-hamburger {
     animation-timing-function: ease-in;
     animation-duration: 0.5s;
   }
+
   @keyframes mobile-menu {
     from {
       height: 0vh;
     }
+
     to {
       height: 100vh;
     }
@@ -203,26 +234,36 @@ nav .cancel-hamburger {
   gap: 12rem;
   color: #31525b;
 }
+
 @media only screen and (max-width: 1024px) {
   .home {
     gap: 6rem;
   }
 }
+
 @media only screen and (max-width: 900px) {
   .home {
     gap: 1rem;
   }
 }
+
 @media only screen and (max-width: 760px) {
   .home {
     flex-direction: column-reverse;
   }
 }
+
 @media only screen and (min-width: 500px) {
   .home {
     margin-top: 1.5rem;
+    /*  */
   }
+
+  /* .home .catch-phrase {
+    padding: 0 30px;
+  } */
 }
+
 .home::after {
   content: "";
   height: 350px;
@@ -234,11 +275,13 @@ nav .cancel-hamburger {
   opacity: 0.25;
   border-radius: 51% 49% 100% 0%/45% 69% 31% 55%;
 }
+
 @media only screen and (max-width: 900px) {
   .home::after {
     display: none;
   }
 }
+
 .home::before {
   content: "";
   height: 200px;
@@ -250,39 +293,48 @@ nav .cancel-hamburger {
   opacity: 0.2;
   border-radius: 77% 23% 46% 54%/45% 53% 47% 55%;
 }
+
 @media only screen and (max-width: 900px) {
   .home::before {
     display: none;
   }
 }
+
 .home .catch-phrase {
   color: #333333;
   position: relative;
 }
+
 .home .catch-phrase h1 span {
   background: linear-gradient(to right, #ffa101 0, #31525b 10%, #ffa101);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: shine 10s infinite ease-in;
 }
+
 @keyframes shine {
   0% {
     background-position: left;
   }
+
   60% {
     background-position: 500px;
   }
+
   100% {
     background-position: right;
   }
 }
+
 .home .catch-phrase span {
   color: #ffa101;
 }
+
 .home .catch-phrase .buttons {
   margin: 1rem 0;
   display: flex;
 }
+
 .home .catch-phrase .buttons button {
   height: 2rem;
   border: none;
@@ -291,11 +343,13 @@ nav .cancel-hamburger {
   padding: 0 1rem;
   color: white;
 }
+
 .home .catch-phrase .buttons .hire-me {
   background: #31525b;
   border: solid 1px transparent;
   transition: all 0.5s;
 }
+
 .home .catch-phrase .buttons .hire-me:hover {
   color: #31525b;
   border-style: solid;
@@ -305,6 +359,7 @@ nav .cancel-hamburger {
   -webkit-border-radius: 3px;
   background: #f5f5f5;
 }
+
 .home .catch-phrase .buttons .cv {
   background: transparent;
   color: #31525b;
@@ -315,6 +370,7 @@ nav .cancel-hamburger {
   -webkit-border-radius: 3px;
   transition: all 0.5s;
 }
+
 .home .catch-phrase .buttons .cv a {
   color: #31525b;
   text-decoration: none;
@@ -325,17 +381,21 @@ nav .cancel-hamburger {
   align-items: center;
   justify-content: center;
 }
+
 .home .catch-phrase .buttons .cv a:hover {
   color: white;
 }
+
 .home .catch-phrase .buttons .cv:hover {
   background: #31525b;
   border-color: transparent;
   color: white;
 }
+
 .home .profil {
   position: relative;
 }
+
 .home .profil::before {
   content: "";
   width: 95%;
@@ -352,6 +412,7 @@ nav .cancel-hamburger {
   transform: translate(-50%, -50%);
   z-index: -20;
 }
+
 .home .profil .freelancer,
 .home .profil .developper {
   position: absolute;
@@ -364,6 +425,7 @@ nav .cancel-hamburger {
   display: flex;
   align-items: center;
 }
+
 .home .profil .freelancer .check,
 .home .profil .developper .check {
   width: 1.5rem;
@@ -375,21 +437,26 @@ nav .cancel-hamburger {
   border-radius: 100%;
   color: #f5f5f5;
 }
+
 .home .profil .freelancer p,
 .home .profil .developper p {
   opacity: 0.55;
   font-size: 0.65rem;
 }
+
 .home .profil .freelancer {
   top: 40%;
 }
+
 .home .profil .freelancer .check {
   background: #ffa101;
 }
+
 .home .profil .developper {
   right: 0;
   bottom: 5%;
 }
+
 .home .profil .developper .check {
   background: #333333;
 }
@@ -397,17 +464,21 @@ nav .cancel-hamburger {
 .about {
   color: #31525b;
 }
+
 .about .content {
   display: flex;
 }
-.about .content > div {
+
+.about .content>div {
   width: 60%;
 }
+
 @media only screen and (max-width: 760px) {
-  .about .content > div {
+  .about .content>div {
     width: 90%;
   }
 }
+
 @media only screen and (max-width: 760px) {
   .about .content {
     flex-direction: column-reverse;
@@ -415,12 +486,14 @@ nav .cancel-hamburger {
     margin: 1.5rem 0;
   }
 }
+
 .about .content .image {
   display: flex;
   align-items: center;
   justify-content: center;
   position: relative;
 }
+
 .about .content .image::before {
   content: "";
   position: absolute;
@@ -433,42 +506,50 @@ nav .cancel-hamburger {
   transform: translateX(-50%);
   border-radius: 1rem;
 }
+
 .about .content .image img {
   height: 90%;
   background: #b3dee5;
   opacity: 0.5;
   border-radius: 0.5rem;
 }
+
 @media only screen and (max-width: 900px) {
   .about .content .image img {
     background: none;
     opacity: 1;
   }
 }
+
 .about .content .about-me {
   font-size: 0.875rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
+
 .about .content .about-me h3 {
   width: 60%;
   position: relative;
   margin-bottom: 1.25rem;
 }
+
 @media only screen and (max-width: 760px) {
   .about .content .about-me h3 {
     width: 100%;
   }
 }
+
 .about .content .about-me p {
   width: 70%;
 }
+
 @media only screen and (max-width: 900px) {
   .about .content .about-me p {
     width: 90%;
   }
 }
+
 .about .content .about-me button {
   margin: 1.25rem 0;
   height: 2rem;
@@ -480,23 +561,28 @@ nav .cancel-hamburger {
   background: #ffa101;
   transition: all 0.5s;
 }
+
 .about .content .about-me button a {
   text-decoration: none;
   color: #f5f5f5;
 }
+
 @media only screen and (max-width: 760px) {
   .about .content .about-me button {
     display: none;
   }
 }
+
 .about .content .about-me button:hover {
   border: solid #ffa101 2px;
   background: transparent;
   color: #ffa101;
 }
+
 .about .content .about-me button:hover a {
   color: #ffa101;
 }
+
 .about .content .media-socials {
   display: flex;
   flex-direction: column;
@@ -504,9 +590,11 @@ nav .cancel-hamburger {
   gap: 1rem;
   margin: 0.5rem 0;
 }
+
 .about .content .media-socials h4 {
   font-weight: 200;
 }
+
 .about .content .media-socials ul {
   display: flex;
   align-items: center;
@@ -515,9 +603,11 @@ nav .cancel-hamburger {
   margin: 0;
   list-style-type: none;
 }
+
 .about .content .media-socials ul li {
   cursor: pointer;
 }
+
 .about .content .media-socials ul li a {
   display: flex;
   align-items: center;
@@ -526,9 +616,11 @@ nav .cancel-hamburger {
   text-decoration: none;
   color: #31525b;
 }
+
 .about .content .media-socials ul li a:hover {
   color: #ffa101;
 }
+
 .about .content .media-socials ul li:hover {
   color: #ffa101;
   transition: 0.3s;
@@ -538,6 +630,7 @@ nav .cancel-hamburger {
   color: #31525b;
   overflow: hidden;
 }
+
 .services .content {
   height: auto;
   display: flex;
@@ -546,9 +639,11 @@ nav .cancel-hamburger {
   flex-wrap: wrap;
   position: relative;
 }
+
 .services .content .frontend {
   position: relative;
 }
+
 .services .content .frontend::before {
   content: "";
   position: absolute;
@@ -560,9 +655,11 @@ nav .cancel-hamburger {
   border-top: solid 2px #ffa101;
   border-top-left-radius: 1rem;
 }
+
 .services .content .backend {
   position: relative;
 }
+
 .services .content .backend::before {
   content: "";
   position: absolute;
@@ -574,7 +671,8 @@ nav .cancel-hamburger {
   border-bottom: solid 2px #31525b;
   border-bottom-right-radius: 1rem;
 }
-.services .content > div {
+
+.services .content>div {
   width: 20rem;
   overflow: hidden;
   display: flex;
@@ -584,15 +682,18 @@ nav .cancel-hamburger {
   text-align: center;
   padding: 1rem;
 }
+
 @media only screen and (max-width: 500px) {
-  .services .content > div {
+  .services .content>div {
     width: 90%;
   }
 }
-.services .content > div img {
+
+.services .content>div img {
   width: 120px;
 }
-.services .content > div h5 {
+
+.services .content>div h5 {
   font-weight: 500;
   font-size: 1.125rem;
   margin: 1rem 0 0 0;
@@ -601,10 +702,12 @@ nav .cancel-hamburger {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.services .content > div .comments {
+
+.services .content>div .comments {
   font-size: 1rem;
 }
-.services .content > div .comments > div {
+
+.services .content>div .comments>div {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -616,6 +719,7 @@ nav .cancel-hamburger {
 .experiences {
   color: #31525b;
 }
+
 .experiences .content {
   display: flex;
   align-items: center;
@@ -623,24 +727,28 @@ nav .cancel-hamburger {
   flex-wrap: wrap;
   overflow: hidden;
 }
-.experiences .content > div {
+
+.experiences .content>div {
   position: relative;
   width: 20rem;
   aspect-ratio: 1/1;
   overflow: visible;
 }
+
 @media only screen and (max-width: 500px) {
-  .experiences .content > div {
+  .experiences .content>div {
     width: 80%;
   }
 }
-.experiences .content > div .hr-line {
+
+.experiences .content>div .hr-line {
   background: #fae6b1;
   height: 100%;
   width: 1px;
   position: absolute;
 }
-.experiences .content > div > span {
+
+.experiences .content>div>span {
   border-style: solid;
   border-width: 1px;
   border-color: #fae6b1;
@@ -653,7 +761,8 @@ nav .cancel-hamburger {
   background: white;
   z-index: 40;
 }
-.experiences .content > div .comments {
+
+.experiences .content>div .comments {
   position: absolute;
   top: 20%;
   left: 1.5rem;
@@ -663,7 +772,8 @@ nav .cancel-hamburger {
   gap: 0.8rem;
   font-size: 1rem;
 }
-.experiences .content > div .comments h5 {
+
+.experiences .content>div .comments h5 {
   font-weight: 500;
   font-size: 1.125rem;
   background: -webkit-linear-gradient(239deg, rgb(49, 82, 91) 0%, rgb(223, 167, 15) 46%, rgb(49, 82, 91) 100%);
@@ -671,27 +781,31 @@ nav .cancel-hamburger {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
 @media only screen and (max-width: 500px) {
-  .experiences .content > div .comments {
+  .experiences .content>div .comments {
     gap: 1.2rem;
   }
 }
-.experiences .content > div .pourcentage {
+
+.experiences .content>div .pourcentage {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   gap: 0.5rem;
 }
-.experiences .content > div .pourcentage > div {
+
+.experiences .content>div .pourcentage>div {
   border-style: dotted;
   border-width: 1px;
   border-color: #ffa101;
   border-radius: 5px;
   -webkit-border-radius: 5px;
   height: 1.5rem;
- 
+
 }
-.experiences .content > div .pourcentage > div div {
+
+.experiences .content>div .pourcentage>div div {
   height: 100%;
   /* width: 70%; */
   width: 70%;
@@ -700,11 +814,13 @@ nav .cancel-hamburger {
   align-items: center;
   justify-content: start;
 }
-.experiences .content > div .pourcentage > div div span {
+
+.experiences .content>div .pourcentage>div div span {
   font-size: 0.6rem;
   margin: 7px;
-   /* padding: 8px 3px; */
+  /* padding: 8px 3px; */
 }
+
 /* .experiences .content > div .pourcentage > div .react {
   width: 80%;
 }
@@ -745,6 +861,7 @@ nav .cancel-hamburger {
 .projects {
   color: #31525b;
 }
+
 .projects .content {
   display: flex;
   flex-wrap: wrap;
@@ -752,7 +869,8 @@ nav .cancel-hamburger {
   justify-content: center;
   gap: 1rem;
 }
-.projects .content > div {
+
+.projects .content>div {
   width: 18rem;
   display: flex;
   flex-direction: column;
@@ -762,16 +880,19 @@ nav .cancel-hamburger {
   background: white;
   border-radius: 0.5rem;
 }
+
 @media only screen and (max-width: 500px) {
-  .projects .content > div {
+  .projects .content>div {
     width: 90%;
   }
 }
-.projects .content > div .project-img {
+
+.projects .content>div .project-img {
   position: relative;
   border-radius: 0.5rem;
 }
-.projects .content > div .project-img::after {
+
+.projects .content>div .project-img::after {
   content: "";
   position: absolute;
   top: 0;
@@ -781,12 +902,14 @@ nav .cancel-hamburger {
   background: rgb(255, 255, 255);
   background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 50%, rgb(255, 255, 255) 100%);
 }
-.projects .content > div .project-img img {
+
+.projects .content>div .project-img img {
   width: 100%;
   object-fit: contain;
   transition: all 0.5s;
 }
-.projects .content > div hr {
+
+.projects .content>div hr {
   height: 1px;
   width: 85%;
   margin: 0.35rem 0;
@@ -794,14 +917,16 @@ nav .cancel-hamburger {
   border-radius: 10px;
   background: -webkit-linear-gradient(0deg, rgb(255, 255, 255) 0%, rgba(49, 82, 91, 0.5) 25%, rgba(223, 168, 15, 0.5) 45%, rgba(49, 82, 91, 0.5) 75%, rgb(255, 255, 255) 100%);
 }
-.projects .content > div .description {
+
+.projects .content>div .description {
   display: flex;
   flex-direction: column;
   padding: 1rem;
   gap: 1rem;
   font-size: 0.75rem;
 }
-.projects .content > div .description button {
+
+.projects .content>div .description button {
   display: none;
   background: white;
   color: #ffa101;
@@ -813,23 +938,28 @@ nav .cancel-hamburger {
   padding: 0.5rem;
   cursor: pointer;
 }
-.projects .content > div .description button a {
+
+.projects .content>div .description button a {
   text-decoration: none;
   color: #ffa101;
 }
+
 @media only screen and (max-width: 900px) {
-  .projects .content > div .description button {
+  .projects .content>div .description button {
     display: block;
   }
 }
+
 @media only screen and (min-width: 900px) {
-  .projects .content > div:hover {
+  .projects .content>div:hover {
     position: relative;
   }
-  .projects .content > div:hover .project-img img {
+
+  .projects .content>div:hover .project-img img {
     transform: scale(1.2);
   }
-  .projects .content > div:hover .description button {
+
+  .projects .content>div:hover .description button {
     display: block;
     position: absolute;
     padding: 0.35rem 1rem;
@@ -837,7 +967,8 @@ nav .cancel-hamburger {
     left: 50%;
     transform: translate(-50%);
   }
-  .projects .content > div:hover .description button a {
+
+  .projects .content>div:hover .description button a {
     text-decoration: none;
     color: #ffa101;
   }
@@ -849,6 +980,7 @@ nav .cancel-hamburger {
   flex-direction: column;
   align-items: center;
 }
+
 .contact form {
   display: flex;
   flex-direction: column;
@@ -856,16 +988,19 @@ nav .cancel-hamburger {
   gap: 1rem;
   width: 40%;
 }
+
 @media only screen and (max-width: 900px) {
   .contact form {
     width: 50%;
   }
 }
+
 @media only screen and (max-width: 560px) {
   .contact form {
     width: 90%;
   }
 }
+
 .contact form input {
   height: 2.2rem;
   padding: 3px 10px;
@@ -875,6 +1010,7 @@ nav .cancel-hamburger {
   border-radius: 3px;
   -webkit-border-radius: 3px;
 }
+
 .contact form textarea {
   border-style: solid;
   border-width: 1px;
@@ -883,18 +1019,22 @@ nav .cancel-hamburger {
   -webkit-border-radius: 3px;
   padding: 0.5rem;
 }
-.contact form input:focus, .contact form textarea:focus {
+
+.contact form input:focus,
+.contact form textarea:focus {
   border-style: solid;
   border-width: 1px;
   border-color: #fae6b1;
   border-radius: 3px;
   -webkit-border-radius: 3px;
 }
+
 .contact form label {
   font-weight: 3s00;
   font-size: 0.875rem;
   color: rgba(0, 0, 0, 0.503);
 }
+
 .contact form button {
   height: 2.2rem;
   cursor: pointer;
@@ -906,9 +1046,11 @@ nav .cancel-hamburger {
   background: #ffa101;
   color: white;
 }
+
 .contact form button:hover {
   background: rgba(255, 162, 1, 0.7176470588);
 }
+
 .contact form div {
   display: flex;
   flex-direction: column;
@@ -931,7 +1073,9 @@ main {
   font-family: Poppins, "san-serif";
 }
 
-input, textarea, button {
+input,
+textarea,
+button {
   outline: none;
 }
 
@@ -958,12 +1102,14 @@ main {
 section {
   margin-bottom: 4rem;
 }
+
 section h2 {
   text-align: center;
   margin-bottom: 4rem;
   font-weight: 400;
   position: relative;
 }
+
 section h2::after {
   content: "";
   position: absolute;
@@ -979,9 +1125,15 @@ section h2::after {
 .about {
   margin-bottom: 2rem;
 }
+
 .about h2 {
   text-align: center;
   margin-bottom: 0rem;
 }
 
 /*# sourceMappingURL=index.css.map */
+@media  screen and (max-width: 500px) {
+  .home .catch-phrase {
+    padding: 0 20px;
+  }
+}
