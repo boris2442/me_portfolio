@@ -1136,4 +1136,13 @@ section h2::after {
   .home .catch-phrase {
     padding: 0 20px;
   }
+   .home img{
+    margin: 0 20px !important;
+  }
+}
+@media  screen and (max-width: 400px) {
+  
+   .home img{
+  visibility: hidden;
+  }
 }

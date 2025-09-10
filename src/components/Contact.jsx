@@ -1,4 +1,4 @@
-import { useForm, ValidationError } from '@formspree/react';
+import { useForm } from '@formspree/react';
 import toast from 'react-hot-toast';
 
 
@@ -8,7 +8,7 @@ export default function Contact() {
   const onSubmit = async (e) => {
     await handleSubmit(e);
     if (state.succeeded) {
-      toast.success('Votre email a été envoyé avec succès', {
+      toast.success('Your email has been sent successfully.', {
         style: { fontSize: '12px' }
       });
     } else if (state.errors && state.errors.length > 0) {
