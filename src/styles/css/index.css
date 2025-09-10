@@ -1018,6 +1018,7 @@ nav .cancel-hamburger {
   border-radius: 3px;
   -webkit-border-radius: 3px;
   padding: 0.5rem;
+  resize: none;
 }
 
 .contact form input:focus,

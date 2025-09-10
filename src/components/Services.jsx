@@ -134,9 +134,15 @@
 
 
 
-import frontend from "../assets/frontend.png";
+import front from "../assets/front.jpg";
 import backend from "../assets/backend.png";
-import uiux from "../assets/ux-ui.png";
+import ux from "../assets/ux.png";
+import ecommerce from '../assets/ecommerce.png'
+import maintenance from '../assets/maintenance.png'
+import branding from '../assets/branding.png'
+import ventemateriel from '../assets/ventemateriel.png'
+import gestionprojetdigital from '../assets/gestionprojetdigital.png'
+import back from '../assets/back.png'
 import { useTranslation } from "react-i18next";
 
 export default function Services() {
@@ -147,7 +153,7 @@ export default function Services() {
       <h2>{t('services.title')}</h2>
       <div className="content">
         <div data-aos='zoom-out' className="frontend">
-          <img src={backend} alt="" srcSet="" />
+          <img src={back} alt="" srcSet="" />
           <h5>{t('services.backend.title')}</h5>
           <div className="comments">
             <div>
@@ -157,7 +163,7 @@ export default function Services() {
           </div>
         </div>
         <div data-aos='zoom-out' className="backend">
-          <img src={frontend} alt="" srcSet="" />
+          <img src={front} alt="" srcSet="" />
           <h5>{t('services.frontend.title')}</h5>
           <div className="comments">
             <div>
@@ -167,7 +173,7 @@ export default function Services() {
           </div>
         </div>
         <div data-aos='zoom-out' className="frontend">
-          <img src={backend} alt="" srcSet="" />
+          <img src={ventemateriel} alt="" srcSet="" />
           <h5>{t('services.sale.title')}</h5>
           <div className="comments">
             <div>
@@ -177,7 +183,7 @@ export default function Services() {
           </div>
         </div>
         <div data-aos='zoom-out' className="backend">
-          <img src={uiux} alt="" srcSet="" />
+          <img src={ux} alt="" srcSet="" />
           <h5>{t('services.uxui.title')}</h5>
           <div className="comments">
             <div>
@@ -187,7 +193,7 @@ export default function Services() {
           </div>
         </div>
         <div data-aos='zoom-out' className="frontend">
-          <img src={backend} alt="" srcSet="" />
+          <img src={branding} alt="" srcSet="" />
           <h5>{t('services.branding.title')}</h5>
           <div className="comments">
             <div>
@@ -197,7 +203,7 @@ export default function Services() {
           </div>
         </div>
         <div data-aos='zoom-out' className="backend">
-          <img src={backend} alt="" srcSet="" />
+          <img src={ecommerce} alt="" srcSet="" />
           <h5>{t('services.ecommerce.title')}</h5>
           <div className="comments">
             <div>
@@ -207,7 +213,7 @@ export default function Services() {
           </div>
         </div>
         <div data-aos='zoom-out' className="frontend">
-          <img src={backend} alt="" srcSet="" />
+          <img src={maintenance} alt="" srcSet="" />
           <h5>{t('services.maintenance.title')}</h5>
           <div className="comments">
             <div>
@@ -217,7 +223,7 @@ export default function Services() {
           </div>
         </div>
         <div data-aos='zoom-out' className="backend">
-          <img src={backend} alt="" srcSet="" />
+          <img src={gestionprojetdigital} alt="" srcSet="" />
           <h5>{t('services.project.title')}</h5>
           <div className="comments">
             <div>
