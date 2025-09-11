@@ -7,8 +7,10 @@ import Services from "./components/Services";
 import Experiences from "./components/Experiences";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
+import FloatingButtons from './components/FloatingButtons';
 import "./styles/css/index.css";
 import 'aos/dist/aos.css'
+
 import AOS from 'aos'
 import {useEffect} from 'react'
 
@@ -31,6 +33,7 @@ function App() {
       <Toaster/>
       </main>
       <Footer/>
+        <FloatingButtons />  
     </>
   );
 }
