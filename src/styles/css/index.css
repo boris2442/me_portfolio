@@ -1253,10 +1253,10 @@ section h2::after {
 }
 
 .whatsapp {
-  background-color: #25d366;
+  background: #31525b;
   animation-delay: 0.2s; /* apparaît juste après le bouton top */
 }
 
 .whatsapp:hover {
-  background-color: #1ebd5a;
+  background-color: rgba(71, 68, 61, 0.745)
 }
