@@ -119,7 +119,7 @@
     "message": "Votre message",
     "send": "Envoyer",
     "sending": "Envoi...",
-    "success": "Votre email a été envoyé avec succès.",
+    "success": "Votre message a été envoyé avec succès.",
     "error": "Une erreur est survenue !"
   },
   "footer": {

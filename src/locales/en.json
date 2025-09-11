@@ -119,7 +119,7 @@
     "message": "Your Message",
     "send": "Send",
     "sending": "Sending...",
-    "success": "Your email has been sent successfully.",
+    "success": "Your sms has been sent successfully.",
     "error": "An error occurred!"
   },
   "footer": {
