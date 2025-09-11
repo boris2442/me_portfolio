@@ -71,17 +71,17 @@ export default function Footer() {
         <ul className="media">
           <a href="https://github.com/boris2442/">
             <FaGithub size={20} />
-            <span>{t('footer.media.github')}</span>
+            {/* <span>{t('footer.media.github')}</span> */}
           </a>
           <a href="https://www.linkedin.com/in/boris-aubin-simo-26b9a0369">
             <FaLinkedin size={20} />
-            <span>{t('footer.media.linkedin')}</span>
+            {/* <span>{t('footer.media.linkedin')}</span> */}
           </a>
           <a href="https://www.freecodecamp.org/fcc-bf9070d4-2429-4658-bf7d-70da5396e1d1">
             <FaFreeCodeCamp size={20} />
-            <span>{t('footer.media.freecodecamp')}</span>
+            {/* <span>{t('footer.media.freecodecamp')}</span> */}
           </a>
-           <LanguageSwitcher />
+          <LanguageSwitcher />
         </ul>
       </div>
     </footer>
