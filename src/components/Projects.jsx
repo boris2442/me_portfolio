@@ -67,7 +67,7 @@ import quiz from '../assets/projects_images/quiz.png';
 import spes from '../assets/projects_images/spes.png';
 import streaming from '../assets/projects_images/streaming.png';
 import { useTranslation } from "react-i18next";
-
+import ImageWithSkeleton from './ImageWithSkeleton';
 export default function Projects() {
   const { t } = useTranslation();
 
@@ -77,7 +77,8 @@ export default function Projects() {
       <div className="content">
         <div data-aos='flip-left'>
           <div className="project-img">
-            <img src={chataw} alt="" srcSet="" />
+            {/* <img src={chataw} alt="" srcSet="" /> */}
+            <ImageWithSkeleton src={chataw} alt="Chataw project" width="400px" height="100%" />
           </div>
           <hr />
           <div className="description">
@@ -87,7 +88,8 @@ export default function Projects() {
         </div>
         <div data-aos='flip-left'>
           <div className="project-img">
-            <img src={quiz} alt="" srcSet="" />
+            {/* <img src={quiz} alt="" srcSet="" /> */}
+            <ImageWithSkeleton src={quiz} alt="Quiz project" width="400px" height="100%" />
           </div>
           <hr />
           <div className="description">
@@ -97,7 +99,8 @@ export default function Projects() {
         </div>
         <div data-aos='flip-left'>
           <div className="project-img">
-            <img src={spes} alt="" srcSet="" />
+            {/* <img src={spes} alt="" srcSet="" /> */}
+            <ImageWithSkeleton src={spes} alt="Spes project" width="400px" height="100%" />
           </div>
           <hr />
           <div className="description">
@@ -107,7 +110,8 @@ export default function Projects() {
         </div>
         <div data-aos='flip-left'>
           <div className="project-img">
-            <img src={streaming} alt="" srcSet="" />
+            {/* <img src={streaming} alt="" srcSet="" /> */}
+            <ImageWithSkeleton src={streaming} alt="Streaming project" width="560px" height="100%" />
           </div>
           <hr />
           <div className="description">

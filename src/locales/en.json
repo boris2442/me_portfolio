@@ -134,6 +134,9 @@
       "github": "GitHub",
       "linkedin": "LinkedIn",
       "freecodecamp": "FreeCodeCamp"
+    },
+    "copyright": {
+      "copy": " All rights reserved - Boris Aubin Simo Tsebo"
     }
   }
 }

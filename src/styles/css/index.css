@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap");
 
-footer {
+/* footer {
   width: 100%;
   background: rgb(49, 82, 91);
   background: linear-gradient(239deg, rgb(49, 82, 91) 0%, rgb(220, 192, 113) 46%, rgb(49, 82, 91) 100%);
@@ -65,7 +65,67 @@ footer .navigation-section ul li:hover,
 footer .navigation-section ul li:focus,
 footer .navigation-section ul li:active {
   color: #ffa101;
+} */
+
+
+
+
+
+
+footer {
+  width: 100%;
+  background: linear-gradient(239deg, rgb(49, 82, 91) 0%, rgb(220, 192, 113) 46%, rgb(49, 82, 91) 100%);
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  color: #b3dee5;
 }
+
+footer .social-section {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+footer .social-section a {
+  color: #b3dee5;
+  transition: color 0.3s ease;
+}
+
+footer .social-section a:hover {
+  color: #ffa101;
+}
+
+footer .copyright {
+  font-size: 0.75rem;
+  color: #fae6b1;
+  text-align: center;
+}
+
+@media only screen and (max-width: 500px) {
+  footer {
+    gap: 0.5rem;
+  }
+
+  footer .social-section {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
 
 header {
   overflow: visible;
@@ -1202,8 +1262,10 @@ section h2::after {
   bottom: 20px;
   width: 100%;
   display: flex;
-  justify-content: space-between; /* WhatsApp à gauche, Top à droite */
-  padding: 0 20px; /* espace sur les côtés */
+  justify-content: space-between;
+  /* WhatsApp à gauche, Top à droite */
+  padding: 0 20px;
+  /* espace sur les côtés */
   z-index: 1000;
 }
 
@@ -1247,6 +1309,7 @@ section h2::after {
     opacity: 0;
     transform: translateY(20px);
   }
+
   to {
     opacity: 1;
     transform: translateY(0);
