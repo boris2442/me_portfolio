@@ -1197,18 +1197,16 @@ section h2::after {
 
 
 /* scrool */
-
 .floating-container {
   position: fixed;
   bottom: 20px;
-  right: 20px;
+  width: 100%;
   display: flex;
-  flex-direction: column;
-  gap: 12px;
+  justify-content: space-between; /* WhatsApp à gauche, Top à droite */
+  padding: 0 20px; /* espace sur les côtés */
   z-index: 1000;
 }
 
-/* Animation à l'apparition */
 .floating-btn {
   width: 50px;
   height: 50px;
@@ -1221,10 +1219,27 @@ section h2::after {
   color: white;
   font-size: 20px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
-
   opacity: 0;
   transform: translateY(20px);
-  animation: fadeInUp 0.5s forwards; /* joue une seule fois */
+  animation: fadeInUp 0.5s forwards;
+}
+
+.back-to-top {
+  background-color: #EEA01E;
+  animation-delay: 0.1s;
+}
+
+.back-to-top:hover {
+  background-color: #eea21ebe;
+}
+
+.whatsapp {
+  background: #31525b;
+  animation-delay: 0.2s;
+}
+
+.whatsapp:hover {
+  background-color: rgba(71, 68, 61, 0.745);
 }
 
 @keyframes fadeInUp {
@@ -1241,22 +1256,4 @@ section h2::after {
 .floating-btn:hover {
   transform: scale(1.1);
   transition: transform 0.3s ease;
-}
-
-.back-to-top {
-  background-color: #EEA01E;
-  animation-delay: 0.1s; /* petit décalage */
-}
-
-.back-to-top:hover {
-  background-color: #eea21ebe;
-}
-
-.whatsapp {
-  background: #31525b;
-  animation-delay: 0.2s; /* apparaît juste après le bouton top */
-}
-
-.whatsapp:hover {
-  background-color: rgba(71, 68, 61, 0.745)
 }

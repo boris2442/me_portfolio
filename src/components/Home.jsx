@@ -43,7 +43,7 @@
 // }
 
 
-import profil from "../assets/me.png";
+import profil from "../assets/me2.png";
 import { FaCheck } from "react-icons/fa";
 import mycv from '../assets/Credo-CV.pdf';
 import { useTranslation } from "react-i18next";
