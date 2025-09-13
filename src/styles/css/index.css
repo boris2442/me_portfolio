@@ -93,7 +93,7 @@ footer .social-section {
 footer .social-section a {
   color: #b3dee5;
   transition: color 0.3s ease;
-    z-index: 1000 !important;
+  z-index: 1000 !important;
 }
 
 footer .social-section a:hover {
@@ -115,7 +115,7 @@ footer .copyright {
     flex-wrap: wrap;
     justify-content: center;
     gap: 15px;
-      z-index: 1000 !important;
+    z-index: 1000 !important;
   }
 }
 
@@ -1320,8 +1320,8 @@ section h2::after {
 
 /* pourcentage-project */
 
-.projects .pourcentage-project{
+.projects .pourcentage-project {
   display: flex !important;
   justify-content: space-between;
-  width: 70%;
+  width: 90%;
 }
