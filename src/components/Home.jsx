@@ -17,9 +17,9 @@ export default function Home() {
           {t('home.description')}
         </p>
         <div className="buttons">
-          <button className="cv">
+          {/* <button className="cv">
             <a download="Credo-CV.pdf" href={mycv}>{t('home.download_cv')}</a>
-          </button>
+          </button> */}
         </div>
       </div>
       <div className="profil">

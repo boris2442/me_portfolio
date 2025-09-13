@@ -87,11 +87,13 @@ footer .social-section {
   display: flex;
   align-items: center;
   gap: 20px;
+  z-index: 1000 !important;
 }
 
 footer .social-section a {
   color: #b3dee5;
   transition: color 0.3s ease;
+    z-index: 1000 !important;
 }
 
 footer .social-section a:hover {
@@ -113,6 +115,7 @@ footer .copyright {
     flex-wrap: wrap;
     justify-content: center;
     gap: 15px;
+      z-index: 1000 !important;
   }
 }
 
@@ -850,20 +853,13 @@ nav .cancel-hamburger {
 
 .experiences .content>div .pourcentage {
   display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
+  /* flex-direction: column; */
+  justify-content: space-between;
   gap: 0.5rem;
-}
-
-.experiences .content>div .pourcentage>div {
-  border-style: dotted;
-  border-width: 1px;
-  border-color: #ffa101;
-  border-radius: 5px;
-  -webkit-border-radius: 5px;
-  height: 1.5rem;
 
 }
+
+
 
 .experiences .content>div .pourcentage>div div {
   height: 100%;

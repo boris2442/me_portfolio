@@ -108,6 +108,16 @@
 
 
 import { useTranslation } from "react-i18next";
+// React Icons
+import { FaReact } from "react-icons/fa";          // React
+import { SiVuedotjs } from "react-icons/si";      // Vue.js
+import { SiTailwindcss } from "react-icons/si";   // Tailwind CSS
+import { SiFigma, SiAdobephotoshop, SiNodedotjs, SiMongodb, SiMysql, SiBootstrap } from "react-icons/si";         // Figma
+import { SiAdobexd } from "react-icons/si";       // Adobe XD
+import { FaPaintBrush } from "react-icons/fa"; // Canvas
+
+import { SiLaravel } from "react-icons/si";       // Laravel
+import { SiExpress } from "react-icons/si";       // Express.js
 
 export default function Experiences() {
   const { t } = useTranslation();
@@ -124,20 +134,31 @@ export default function Experiences() {
             <p>{t('experiences.frontend.desc')}</p>
             <div className="pourcentage">
               <div>
-                <div className="react">
-                  <span>{t('experiences.frontend.skills.0')}</span>
-                </div>
+
+                <span> <SiVuedotjs size={30} color="#41b883" /></span>
+
+
               </div>
               <div>
-                <div className="tailwind">
-                  <span>{t('experiences.frontend.skills.1')}</span>
-                </div>
+                {/* <div className="react"> */}
+                <span>  <FaReact size={30} color="#61dafb" /></span>
+
+                {/* </div> */}
+              </div>
+
+              <div>
+
+                <span> <SiTailwindcss size={30} color="#38b2ac" /></span>
+
+
               </div>
               <div>
-                <div className="redux">
-                  <span>{t('experiences.frontend.skills.2')}</span>
-                </div>
+
+                <span> <SiBootstrap size={30} color="#7952B3" /></span>
+
+
               </div>
+
               {/* <div>
                 <div className="bootstrap">
                   <span>Bootstrap</span>
@@ -154,24 +175,27 @@ export default function Experiences() {
             <p>{t('experiences.uiux.desc')}</p>
             <div className="pourcentage">
               <div>
-                <div className="figma">
-                  <span>{t('experiences.uiux.skills.0')}</span>
-                </div>
+                {/* <div className="figma"> */}
+                <span><SiFigma size={30} color="#f24e1e" /></span>
+                {/* </div> */}
               </div>
               <div>
-                <div className="adobe">
-                  <span>{t('experiences.uiux.skills.1')}</span>
-                </div>
+                {/* <div className="adobe"> */}
+                <span> <SiAdobexd size={30} color="#ff2bc2" /></span>
+                {/* </div> */}
               </div>
               <div>
-                <div className="canva">
-                  <span>{t('experiences.uiux.skills.2')}</span>
-                </div>
+                {/* <div className="canva"> */}
+                <span>
+                  <FaPaintBrush size={30} color="#2850A9" />
+
+                </span>
+                {/* </div> */}
               </div>
               <div>
-                <div className="photoshop">
-                  <span>{t('experiences.uiux.skills.3')}</span>
-                </div>
+                {/* <div className="photoshop"> */}
+                <span>    <SiAdobephotoshop size={30} color="#31A8FF" /></span>
+                {/* </div> */}
               </div>
             </div>
           </div>
@@ -184,24 +208,29 @@ export default function Experiences() {
             <p>{t('experiences.backend.desc')}</p>
             <div className="pourcentage">
               <div>
-                <div className="typescript">
-                  <span>{t('experiences.backend.skills.0')}</span>
-                </div>
+                {/* <div className="typescript"> */}
+                <span><SiLaravel size={30} color="#ff2d20" /></span>
+                {/* </div> */}
               </div>
               <div>
-                <div className="node">
-                  <span>{t('experiences.backend.skills.1')}</span>
-                </div>
+                {/* <div className="node"> */}
+                <span><SiNodedotjs size={30} color="#339933" /></span>
+                {/* </div> */}
               </div>
               <div>
-                <div className="express">
-                  <span>{t('experiences.backend.skills.2')}</span>
-                </div>
+                {/* <div className="express"> */}
+                <span>  <SiExpress size={30} color="#000000" /></span>
+                {/* </div> */}
               </div>
               <div>
-                <div className="mongo">
-                  <span>{t('experiences.backend.skills.3')}</span>
-                </div>
+                {/* <div className="express"> */}
+                <span> <SiMysql size={30} color="#4479A1" /></span>
+                {/* </div> */}
+              </div>
+              <div>
+
+                <span><SiMongodb size={30} color="#47A248" /></span>
+
               </div>
             </div>
           </div>
