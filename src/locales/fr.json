@@ -35,12 +35,12 @@
     "title": "Quels services je propose ?",
     "backend": {
       "title": "Backend",
-      "desc": "En plus du frontend, je maîtrise aussi le backend et je m'y sens très à l'aise",
+      "desc": " Je suis  compétent en back-end et capable de concevoir des solutions performantes et fiables",
       "languages": "Langages : Javascript avec NodeJs/ExpressJs, Php avec Laravel"
     },
     "frontend": {
       "title": "Frontend",
-      "desc": "J'aime coder à partir de zéro et donner vie aux idées dans le navigateur.",
+      "desc": "En complément de mon expertise back-end, je développe des interfaces front-end from scratch, matérialisant les idées dans le navigateur.",
       "languages": "Langage : Javascript avec VueJs, ReactJs, TailwindCss"
     },
     "sale": {

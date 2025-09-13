@@ -24,7 +24,7 @@ export default function Services() {
           <div className="comments">
             <div>
               <p>{t('services.backend.desc')}</p>
-              <p><b>{t('services.backend.languages')}</b></p>
+              {/* <p><b>{t('services.backend.languages')}</b></p> */}
             </div>
           </div>
         </div>
@@ -34,7 +34,7 @@ export default function Services() {
           <div className="comments">
             <div>
               <p>{t('services.frontend.desc')}</p>
-              <p><b>{t('services.frontend.languages')}</b></p>
+              {/* <p><b>{t('services.frontend.languages')}</b></p> */}
             </div>
           </div>
         </div>
@@ -54,7 +54,7 @@ export default function Services() {
           <div className="comments">
             <div>
               <p>{t('services.uxui.desc')}</p>
-              <p><b>{t('services.uxui.tools')}</b></p>
+              {/* <p><b>{t('services.uxui.tools')}</b></p> */}
             </div>
           </div>
         </div>

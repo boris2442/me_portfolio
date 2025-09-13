@@ -35,12 +35,11 @@
     "title": "What Services I'm Providing?",
     "backend": {
       "title": "Backend",
-      "desc": "Apart from doing the frontend, I also do the backend well and I feel very comfortable on the backend side",
-      "languages": "Languages: Javascript with NodeJs/ExpressJs, Php with Laravel"
+      "desc": "I am skilled in back-end and able to design efficient and reliable solutions."
     },
     "frontend": {
       "title": "Frontend",
-      "desc": "I like code things from scratch, and enjoy bringing ideas to life in browser.",
+      "desc": "In addition to my back-end expertise, I develop front-end interfaces from scratch, materializing ideas in the browser.",
       "languages": "Language: Javascript with VueJs, ReactJs, TailwindCss"
     },
     "sale": {
