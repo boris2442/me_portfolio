@@ -9,7 +9,6 @@ i18n
       fr: { translation: fr },
       en: { translation: en }
     },
-    lng: 'fr', // langue par défaut : anglais
-    fallbackLng: 'fr',
+    lng: 'en', // langue de repli // 
     interpolation: { escapeValue: false }
   });
