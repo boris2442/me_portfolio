@@ -93,12 +93,19 @@
       "skills": ["Laravel", "NodeJs", "Express Js", "Mongo DB ( Mongoose )"]
     }
   },
-  "projects": {
+  "projects":
+   {
     "title": "Mes projets récents",
+
+    "walnertech": {
+      "desc": "Une plateforme e-commerce pour Walner Tech, spécialisée dans la vente de matériel informatique et électronique, développée avec Vue.js Laravel et Tailwind CSS.",
+      "view": "Voir plus"
+    },
     "chataw": {
       "desc": "Une plateforme dédiée à l’organisation d’événements, offrant des services de restauration personnalisés pour mariages, séminaires et réceptions.",
       "view": "Voir plus"
     },
+    
     "quiz": {
       "desc": "Une application de gestion étudiante permettant de suivre les paiements, les cours et les informations académiques personnelles efficacement.",
       "view": "Voir plus"

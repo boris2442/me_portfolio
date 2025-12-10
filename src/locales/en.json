@@ -94,6 +94,10 @@
   },
   "projects": {
     "title": "My Recents Projects",
+    "walnertech": {
+      "desc": "An e-commerce platform for Walner Tech, specializing in the sale of computer and electronic equipment, developed with Vue.js Laravel and Tailwind CSS.",
+      "view": "View more"
+    },
     "chataw": {
       "desc": "A platform dedicated to event planning, offering personalized catering services for weddings, seminars and receptions.",
       "view": "View more"

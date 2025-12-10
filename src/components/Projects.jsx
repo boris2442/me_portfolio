@@ -3,6 +3,7 @@
 import chataw from '../assets/projects_images/chataw.png';
 import quiz from '../assets/projects_images/quiz.png';
 import spes from '../assets/projects_images/spes.png';
+import walnertech from '../assets/projects_images/walnertech.png';
 import streaming from '../assets/projects_images/streaming.png';
 import { useTranslation } from "react-i18next";
 import ImageWithSkeleton from './ImageWithSkeleton';
@@ -31,6 +32,25 @@ export default function Projects() {
     <section id="Projects" className="projects">
       <h2>{t('projects.title')}</h2>
       <div className="content">
+
+        <div data-aos='flip-left'>
+          <div className="project-img">
+            {/* <img src={chataw} alt="" srcSet="" /> */}
+            <ImageWithSkeleton src={walnertech} alt="Walnertech project" width="400px" height="100%" />
+          </div>
+          <hr />
+          <div className="description">
+            <p>{t('projects.walnertech.desc')}</p>
+            <button> <a href="https://walner.evendeco.com/">{t('projects.walnertech.view')}</a> </button>
+          </div>
+          <div className="pourcentage-project" >
+            <span>    <SiVuedotjs size={30} color="#41b883" /></span>
+            <span>    <SiLaravel size={30} color="#ff2d20" /></span>
+            <span>   <SiTailwindcss size={30} color="#38b2ac" /></span>
+            <span>    <SiMysql size={30} color="#4479A1" /></span>
+            <span>    <SiPhp size={30} color="#4479A1" /></span>
+          </div>
+        </div>
         <div data-aos='flip-left'>
           <div className="project-img">
             {/* <img src={chataw} alt="" srcSet="" /> */}
@@ -48,6 +68,24 @@ export default function Projects() {
             <span>    <SiPhp size={30} color="#4479A1" /></span>
           </div>
         </div>
+        <div data-aos='flip-left'>
+          <div className="project-img">
+            {/* <img src={chataw} alt="" srcSet="" /> */}
+            <ImageWithSkeleton src={chataw} alt="Chataw project" width="400px" height="100%" />
+          </div>
+          <hr />
+          <div className="description">
+            <p>{t('projects.chataw.desc')}</p>
+            <button> <a href="https://evendeco.com/">{t('projects.chataw.view')}</a> </button>
+          </div>
+          <div className="pourcentage-project" >
+            <span>  <FaReact size={30} color="#61dafb" /></span>
+            <span>   <SiTailwindcss size={30} color="#38b2ac" /></span>
+            <span>    <SiMysql size={30} color="#4479A1" /></span>
+            <span>    <SiPhp size={30} color="#4479A1" /></span>
+          </div>
+        </div>
+
         <div data-aos='flip-left'>
           <div className="project-img">
             {/* <img src={quiz} alt="" srcSet="" /> */}
