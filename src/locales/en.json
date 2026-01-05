@@ -94,6 +94,15 @@
   },
   "projects": {
     "title": "My Recents Projects",
+    "scholarchart": {
+      "desc": "  Administrative management application designed for employee data entry and tracking, payroll management, and automatic payslip generation. It offers a reliable, fast, and secure solution to simplify human resources management.  ",
+      "view": "View more"
+    },
+    "boristech": {
+      "desc": "Boris Tech is an e-commerce platform dedicated to the sale of computer hardware and electronic equipment.\nIt was designed with Laravel for the backend, Vue.js for the user interface and Tailwind CSS for a modern, responsive and performant design.",
+      "view": "View more"
+    },
+
     "walnertech": {
       "desc": "An e-commerce platform for Walner Tech, specializing in the sale of computer and electronic equipment, developed with Vue.js Laravel and Tailwind CSS.",
       "view": "View more"

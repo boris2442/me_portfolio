@@ -1,7 +1,8 @@
 
 import Navigation from "./Navigation";
 import { useTranslation } from "react-i18next";
-// import LanguageSwitcher from "./LanguageSwitcher";
+
+import LanguageSwitcher from "./LanguageSwitcher";
 export default function Header() {
   const { t } = useTranslation();
 
@@ -10,6 +11,7 @@ export default function Header() {
       <div className="logo">
         <span className="first-letter">{t('header.logo_first')}</span>
         <span>{t('header.logo_last')}</span>
+         <LanguageSwitcher />
       </div>
       <Navigation />
       <button><a href="#Contact">{t('header.contact')}</a></button>
