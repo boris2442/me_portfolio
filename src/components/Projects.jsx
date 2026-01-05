@@ -51,10 +51,7 @@ export default function Projects() {
             </button>
           </div>
           <div className="pourcentage-project">
-            {/* <span>
-              {" "}
-              <SiVuedotjs size={30} color="#41b883" />
-            </span> */}
+         
             <span>
               {" "}
               <SiLaravel size={30} color="#ff2d20" />
