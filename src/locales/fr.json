@@ -95,10 +95,17 @@
   },
   "projects": {
     "title": "Mes projets récents",
+
+    "claudinestore": {
+      "desc": "  application de gestion des ressources humaines pour la société Claudine Store. Elle permet de suivre les employés, gérer les salaires et générer automatiquement les bulletins de paie, offrant une solution fiable, rapide et sécurisée pour simplifier la gestion administrative. Ainsi que la création d'une plateforme e-commerce pour la vente de matériel informatique et électronique, développée avec Laravel pour le back-end  pour l’interface utilisateur et Tailwind CSS , Chart.js pour un design moderne, responsive et performant.",
+      "view": "Voir plus"
+    },
+
     "scholarchart": {
       "desc": "  Application de gestion administrative conçue pour la saisie et le suivi du personnel, la gestion des salaires et la génération automatique des bulletins de paie.\nElle offre une solution fiable, rapide et sécurisée pour simplifier la gestion des ressources humaines.  ",
       "view": "Voir plus"
     },
+
     "boristech": {
       "desc": "Boris Tech est une plateforme e-commerce dédiée à la commercialisation de matériel informatique et d’équipements électroniques.\nElle a été conçue avec Laravel pour le back-end, Vue.js pour l’interface utilisateur et Tailwind CSS pour un design moderne, responsive et performant.",
       "view": "Voir plus"
@@ -127,7 +134,7 @@
   },
   "contact": {
     "title": "Contactez-moi",
-    "name": "Votre nom",
+    "name": "Votre contact",
     "email": "Votre email",
     "message": "Votre message",
     "send": "Envoyer",

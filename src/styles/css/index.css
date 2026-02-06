@@ -1,76 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap");
 
-/* footer {
-  width: 100%;
-  background: rgb(49, 82, 91);
-  background: linear-gradient(239deg, rgb(49, 82, 91) 0%, rgb(220, 192, 113) 46%, rgb(49, 82, 91) 100%);
-  height: auto;
-  padding: 1rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-around;
-}
-
-footer .navigation-section {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-footer .navigation-section a {
-  text-decoration: none;
-  cursor: pointer;
-  font-weight: light;
-  color: white;
-  color: #b3dee5;
-  position: relative;
-}
-
-footer .navigation-section a:hover,
-footer .navigation-section a:focus,
-footer .navigation-section a:active {
-  color: #ffa101;
-}
-
-@media only screen and (max-width: 500px) {
-  footer .navigation-section {
-    flex-direction: column;
-    justify-content: center;
-    gap: 1rem;
-  }
-}
-
-footer .navigation-section ul {
-  padding: 0;
-  margin: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
-  list-style-type: none;
-  font-size: 0.75rem;
-  color: #fae6b1;
-}
-
-footer .navigation-section ul li {
-  cursor: pointer;
-  font-weight: light;
-  color: #b3dee5;
-  color: #b3dee5;
-}
-
-footer .navigation-section ul li:hover,
-footer .navigation-section ul li:focus,
-footer .navigation-section ul li:active {
-  color: #ffa101;
-} */
-
-
-
-
-
 
 footer {
   width: 100%;
@@ -121,7 +50,67 @@ footer .copyright {
 
 
 
+/* Le conteneur parent pour positionner tes boutons */
+.floating-container {
+  position: fixed;
+  bottom: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between; /* Un à gauche, un à droite */
+  padding: 0 20px;
+  z-index: 1000;
+  pointer-events: none; /* Permet de cliquer à travers le conteneur */
+}
 
+.floating-btn {
+  pointer-events: auto; /* Réactive les clics sur les boutons eux-mêmes */
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+/* Style spécifique WhatsApp avec Animation */
+.whatsapp {
+  background-color: #25d366;
+  position: relative;
+  animation: pulse-whatsapp 2s infinite; /* L'effet attirant */
+}
+
+.whatsapp:hover {
+  background-color: #128c7e;
+  transform: scale(1.1); /* Grossit légèrement au survol */
+}
+
+/* Animation de pulsation */
+@keyframes pulse-whatsapp {
+  0% {
+    box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.7);
+  }
+  70% {
+    box-shadow: 0 0 0 15px rgba(37, 211, 102, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(37, 211, 102, 0);
+  }
+}
+
+/* Style Back to Top */
+.back-to-top {
+  background-color: #333;
+}
+
+.back-to-top:hover {
+  background-color: #000;
+}
 
 
 
@@ -877,42 +866,8 @@ nav .cancel-hamburger {
   /* padding: 8px 3px; */
 }
 
-/* .experiences .content > div .pourcentage > div .react {
-  width: 80%;
-}
-.experiences .content > div .pourcentage > div .tailwind {
-  width: 75%;
-}
-.experiences .content > div .pourcentage > div .redux {
-  width: 70%;
-}
-.experiences .content > div .pourcentage > div .bootstrap {
-  width: 68%;
-}
-.experiences .content > div .pourcentage > div .figma {
-  width: 65%;
-}
-.experiences .content > div .pourcentage > div .adobe {
-  width: 57%;
-}
-.experiences .content > div .pourcentage > div .canva {
-  width: 60%;
-}
-.experiences .content > div .pourcentage > div .photoshop {
-  width: 50%;
-}
-.experiences .content > div .pourcentage > div .express {
-  width: 80%;
-}
-.experiences .content > div .pourcentage > div .mongo {
-  width: 74%;
-}
-.experiences .content > div .pourcentage > div .node {
-  width: 65%;
-}
-.experiences .content > div .pourcentage > div .typescript {
-  width: 68%;
-} */
+
+
 
 .projects {
   color: #31525b;

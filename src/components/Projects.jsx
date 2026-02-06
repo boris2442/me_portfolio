@@ -2,6 +2,7 @@ import chataw from "../assets/projects_images/chataw.png";
 import quiz from "../assets/projects_images/quiz.png";
 import spes from "../assets/projects_images/spes.png";
 import boristech from "../assets/projects_images/boristech.png";
+import claudinestore from "../assets/projects_images/claudinestore.png";
 import walnertech from "../assets/projects_images/walnertech.png";
 import streaming from "../assets/projects_images/streaming.png";
 import scholarchart from "../assets/projects_images/scholarchart.png";
@@ -19,7 +20,7 @@ import {
   SiMysql,
   SiPhp,
   SiBootstrap,
-    SiPostgresql,
+  SiPostgresql,
 } from "react-icons/si";
 
 export default function Projects() {
@@ -33,6 +34,45 @@ export default function Projects() {
           <div className="project-img">
             {/* <img src={chataw} alt="" srcSet="" /> */}
             <ImageWithSkeleton
+              src={claudinestore}
+              alt="claudinestore project"
+              width="400px"
+              height="100%"
+            />
+          </div>
+          <hr />
+          <div className="description">
+            <p>{t("projects.claudinestore.desc")}</p>
+            <button  >
+              {" "}
+              <a href="https://claudinestore.evendeco.com/">
+                {t("projects.claudinestore.view")}
+              </a>{" "}
+            </button>
+          </div>
+          <div className="pourcentage-project">
+            <span>
+              {" "}
+              <SiLaravel size={30} color="#ff2d20" />
+            </span>
+            <span>
+              {" "}
+              <SiTailwindcss size={30} color="#38b2ac" />
+            </span>
+            <span>
+              {" "}
+              <SiMysql  size={30} color="#4479A1" />
+            </span>
+            <span>
+              {" "}
+              <SiPhp size={30} color="#4479A1" />
+            </span>
+          </div>
+        </div>
+        <div data-aos="flip-left">
+          <div className="project-img">
+            {/* <img src={chataw} alt="" srcSet="" /> */}
+            <ImageWithSkeleton
               src={scholarchart}
               alt="scholarchart project"
               width="400px"
@@ -41,8 +81,7 @@ export default function Projects() {
           </div>
           <hr />
           <div className="description">
-            {/* <p>{t("projects.scholarchart.desc")}</p> */}
-                    <p>{t("projects.scholarchart.desc")}</p>
+            <p>{t("projects.scholarchart.desc")}</p>
             <button>
               {" "}
               <a href="https://scholarchart.evendeco.com/">
@@ -51,7 +90,6 @@ export default function Projects() {
             </button>
           </div>
           <div className="pourcentage-project">
-         
             <span>
               {" "}
               <SiLaravel size={30} color="#ff2d20" />

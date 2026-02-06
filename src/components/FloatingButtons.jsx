@@ -35,6 +35,7 @@ export default function FloatingButtons() {
             target="_blank"
             rel="noopener noreferrer"
             className="floating-btn whatsapp"
+            title="Discutons sur WhatsApp !"
           >
             <FaWhatsapp size={22} />
           </a>

@@ -94,6 +94,12 @@
   },
   "projects": {
     "title": "My Recents Projects",
+
+    "claudinestore": {
+      "desc": "  Human resources management application for Claudine Store. It allows for employee tracking, payroll management, and automatic payslip generation, offering a reliable, fast, and secure solution to simplify administrative management. Also included is the creation of an e-commerce platform for selling computer and electronic equipment, developed with Laravel for the back-end user interface and Tailwind CSS and Chart.js for a modern, responsive, and high-performance design.  ",
+      "view": "View more"
+    },
+
     "scholarchart": {
       "desc": "  Administrative management application designed for employee data entry and tracking, payroll management, and automatic payslip generation. It offers a reliable, fast, and secure solution to simplify human resources management.  ",
       "view": "View more"
@@ -126,7 +132,7 @@
   },
   "contact": {
     "title": "Contact Me",
-    "name": "Your Name",
+    "name": "Your Phone Number",
     "email": "Your Email",
     "message": "Your Message",
     "send": "Send",
