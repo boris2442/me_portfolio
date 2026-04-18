@@ -1,7 +1,6 @@
-
 import profil from "../assets/me2.png";
 import { FaCheck } from "react-icons/fa";
-import mycv from '../assets/Credo-CV.pdf';
+import mycv from "../assets/Credo-CV.pdf";
 import { useTranslation } from "react-i18next";
 import ImageWithSkeleton from "./ImageWithSkeleton";
 export default function Home() {
@@ -9,13 +8,11 @@ export default function Home() {
 
   return (
     <section id="Home" className="home">
-      <div data-aos='fade-right' className="catch-phrase">
+      <div data-aos="fade-right" className="catch-phrase">
         <h1>
-          {t('home.greeting')} <br /> <span>{t('home.role')}</span>
+          {t("home.greeting")} <br /> <span>{t("home.role")}</span>
         </h1>
-        <p>
-          {t('home.description')}
-        </p>
+        <p>{t("home.description")}</p>
         <div className="buttons">
           {/* <button className="cv">
             <a download="Credo-CV.pdf" href={mycv}>{t('home.download_cv')}</a>
@@ -24,23 +21,28 @@ export default function Home() {
       </div>
       <div className="profil">
         {/* <img width={400} height={550} src={profil} alt="" /> */}
-        <ImageWithSkeleton src={profil} alt="Aubin Boris" width="400px" height="550px" />
-        <div data-aos='fade-up' className="developper">
+        <ImageWithSkeleton
+          src={profil}
+          alt="Aubin Boris"
+          width="400px"
+          height="550px"
+        />
+        <div data-aos="fade-up" className="developper">
           <div className="check">
             <FaCheck />
           </div>
           <div>
-            <h4>{t('home.web_developer_title')}</h4>
-            <p>{t('home.web_developer_desc')}</p>
+            <h4>{t("home.web_developer_title")}</h4>
+            <p>{t("home.web_developer_desc")}</p>
           </div>
         </div>
-        <div data-aos='fade-down' className="freelancer">
+        <div data-aos="fade-down" className="freelancer">
           <div className="check">
             <FaCheck />
           </div>
           <div>
-            <h4>{t('home.freelancer_title')}</h4>
-            <p>{t('home.freelancer_desc')}</p>
+            <h4>{t("home.freelancer_title")}</h4>
+            <p>{t("home.freelancer_desc")}</p>
           </div>
         </div>
       </div>
