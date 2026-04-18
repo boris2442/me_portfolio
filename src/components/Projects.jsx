@@ -2,6 +2,7 @@ import chataw from "../assets/projects_images/chataw.png";
 import quiz from "../assets/projects_images/quiz.png";
 import spes from "../assets/projects_images/spes.png";
 import boristech from "../assets/projects_images/boristech.png";
+import sasayee from "../assets/projects_images/sasayee.png";
 import claudinestore from "../assets/projects_images/claudinestore.png";
 import walnertech from "../assets/projects_images/walnertech.png";
 import streaming from "../assets/projects_images/streaming.png";
@@ -32,7 +33,45 @@ export default function Projects() {
       <div className="content">
         <div data-aos="flip-left">
           <div className="project-img">
-            {/* <img src={chataw} alt="" srcSet="" /> */}
+            <ImageWithSkeleton
+              src={sasayee}
+              alt="sasayee project"
+              width="400px"
+              height="100%"
+            />
+          </div>
+          <hr />
+          <div className="description">
+            <p>{t("projects.sasayee.desc")}</p>
+            <button>
+              {" "}
+              <a href="https://sasayee.com/">
+                {t("projects.sasayee.view")}
+              </a>{" "}
+            </button>
+          </div>
+          <div className="pourcentage-project">
+            <span>
+              {" "}
+              <SiLaravel size={30} color="#ff2d20" />
+            </span>
+            <span>
+              {" "}
+              <SiTailwindcss size={30} color="#38b2ac" />
+            </span>
+            <span>
+              {" "}
+              <SiMysql size={30} color="#4479A1" />
+            </span>
+            <span>
+              {" "}
+            <SiVuedotjs size={30} color="#41b883" />
+            {/* <SiAp size={30} color="#41b883" /> */}
+            </span>
+          </div>
+        </div>
+        <div data-aos="flip-left">
+          <div className="project-img">
             <ImageWithSkeleton
               src={claudinestore}
               alt="claudinestore project"
@@ -43,7 +82,7 @@ export default function Projects() {
           <hr />
           <div className="description">
             <p>{t("projects.claudinestore.desc")}</p>
-            <button  >
+            <button>
               {" "}
               <a href="https://claudinestore.evendeco.com/">
                 {t("projects.claudinestore.view")}
@@ -61,7 +100,7 @@ export default function Projects() {
             </span>
             <span>
               {" "}
-              <SiMysql  size={30} color="#4479A1" />
+              <SiMysql size={30} color="#4479A1" />
             </span>
             <span>
               {" "}

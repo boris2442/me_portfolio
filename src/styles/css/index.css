@@ -356,7 +356,9 @@ nav .cancel-hamburger {
   color: #333333;
   position: relative;
 }
-
+h1{
+  padding-left: 18px;
+}
 .home .catch-phrase h1 span {
   background: linear-gradient(to right, #ffa101 0, #31525b 10%, #ffa101);
   -webkit-background-clip: text;

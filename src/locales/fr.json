@@ -33,6 +33,24 @@
   },
   "services": {
     "title": "Quels services je propose ?",
+
+    "leadership": {
+      "title": "Leadership & Management",
+      "desc": "Capacité à diriger une équipe, prendre des décisions techniques et assurer la coordination entre développeurs, designers et clients.",
+      "skills": "Leadership, communication, prise de décision, gestion d'équipe"
+    },
+    "project": {
+      "title": "Gestion de projet digital",
+      "desc1": "Planification, organisation et suivi de projets web de bout en bout.",
+      "desc2": "Coordination entre équipes techniques, design et clients.",
+      "tools": "UML, MERISE, Agile, Trello, Notion"
+    },
+    "architecture": {
+      "title": "Conception & Architecture logicielle",
+      "desc": "Conception de systèmes robustes avant développement (modélisation et structure).",
+      "tools": "UML, MERISE, analyse fonctionnelle"
+    },
+
     "backend": {
       "title": "Backend",
       "desc": " Je suis  compétent en back-end et capable de concevoir des solutions performantes et fiables",
@@ -68,34 +86,72 @@
       "desc1": "Amélioration des performances, SEO, accessibilité",
       "desc2": "Mise à jour et sécurisation des sites existants"
     },
-    "project": {
+    "projects": {
       "title": "Gestion de projet digital",
       "desc1": "Planification, suivi et coordination de projets web",
       "desc2": "Lien entre design, développement et client"
     }
   },
+
   "experiences": {
     "title": "Expériences professionnelles",
     "period": "2024 - Aujourd'hui",
+
     "frontend": {
-      "title": "Frontend",
-      "desc": "Développement de la partie visible des sites et applications web. C’est la partie que les utilisateurs voient et avec laquelle ils interagissent.",
-      "skills": ["React Js", "TailwindCss", "Vue.js"]
+      "title": "Frontend Development",
+      "desc": "Développement d'interfaces web modernes, responsives et interactives. Participation à l'amélioration de l'expérience utilisateur et à l'intégration des maquettes UI.",
+      "skills": ["React.js", "Vue.js", "TailwindCSS"],
+      "added_skills": [
+        "UI integration",
+        "Responsive design",
+        "Component architecture"
+      ]
     },
+
     "uiux": {
-      "title": "UX / UI",
-      "desc": "Principes de design interactif et visuel pour une expérience utilisateur positive et cohérente sur les sites et applications web.",
-      "skills": ["Figma", "Adobe Xd", "Canvas", "Photoshop"]
+      "title": "UX / UI Design",
+      "desc": "Conception d'interfaces utilisateur et amélioration de l'expérience utilisateur à travers des designs modernes, cohérents et centrés utilisateur.",
+      "skills": ["Figma", "Adobe XD", "Photoshop"],
+      "added_skills": ["Design system", "Prototyping", "User-centered design"]
     },
+
     "backend": {
-      "title": "Backend",
-      "desc": "Création et maintenance des mécanismes qui traitent les données, assurent la sécurité et exécutent les actions sur les sites web.",
-      "skills": ["Laravel", "NodeJs", "Express Js", "Mongo DB ( Mongoose )"]
+      "title": "Backend Development",
+      "desc": "Conception, développement et maintenance des systèmes backend, APIs et bases de données pour assurer performance, sécurité et scalabilité.",
+      "skills": ["Laravel", "Node.js", "Express.js", "MongoDB (Mongoose)"],
+      "added_skills": [
+        "REST API design",
+        "Database architecture",
+        "Security basics"
+      ]
+    },
+
+    "project_management": {
+      "title": "Project Management & Leadership",
+      "desc": "Prise en charge de la planification, coordination et suivi de projets web. Collaboration entre équipes techniques et design avec une approche structurée.",
+      "skills": ["Team coordination", "Planning", "Communication"],
+      "added_skills": [
+        "Leadership",
+        "Agile basics",
+        "Technical decision making",
+        "System thinking"
+      ]
+    },
+
+    "architecture": {
+      "title": "System Design & Architecture",
+      "desc": "Conception de l’architecture des systèmes web avant développement afin d’assurer une structure logique, scalable et maintenable.",
+      "skills": ["UML", "MERISE", "System analysis"],
+      "added_skills": ["Software architecture thinking", "Functional analysis"]
     }
   },
+
   "projects": {
     "title": "Mes projets récents",
-
+    "sasayee": {
+      "desc": "Sassayee.com est une marketplace e-commerce en cours de développement, évoluant chaque jour. Elle permet la vente de produits informatiques et électroniques avec une architecture moderne basée sur Laravel et Vue.js. Le projet est actuellement actif avec amélioration continue, intégrant des fonctionnalités avancées de gestion, de performance et d’expérience utilisateur.",
+      "view": "Voir plus"
+    },
     "claudinestore": {
       "desc": "  application de gestion des ressources humaines pour la société Claudine Store. Elle permet de suivre les employés, gérer les salaires et générer automatiquement les bulletins de paie, offrant une solution fiable, rapide et sécurisée pour simplifier la gestion administrative. Ainsi que la création d'une plateforme e-commerce pour la vente de matériel informatique et électronique, développée avec Laravel pour le back-end  pour l’interface utilisateur et Tailwind CSS , Chart.js pour un design moderne, responsive et performant.",
       "view": "Voir plus"
@@ -142,6 +198,7 @@
     "success": "Votre message a été envoyé avec succès.",
     "error": "Une erreur est survenue !"
   },
+
   "footer": {
     "navigation": {
       "home": "Accueil",

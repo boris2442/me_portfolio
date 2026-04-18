@@ -33,6 +33,24 @@
   },
   "services": {
     "title": "What Services I'm Providing?",
+    "leadership": {
+      "title": "Leadership & Management",
+      "desc": "Ability to lead a team, make technical decisions, and ensure coordination between developers, designers, and clients.",
+      "skills": "Leadership, communication, decision-making, team management"
+    },
+
+    "projects": {
+      "title": "Digital Project Management",
+      "desc1": "Planning, organizing, and managing web projects from start to finish.",
+      "desc2": "Coordination between technical teams, designers, and clients.",
+      "tools": "UML, MERISE, Agile, Trello, Notion"
+    },
+
+    "architecture": {
+      "title": "Software Design & Architecture",
+      "desc": "Designing robust systems before development through modeling and structured analysis.",
+      "tools": "UML, MERISE, functional analysis"
+    },
     "backend": {
       "title": "Backend",
       "desc": "I am skilled in back-end and able to design efficient and reliable solutions."
@@ -74,27 +92,64 @@
     }
   },
   "experiences": {
-    "title": "Work Experiences",
-    "period": "2024 - Now",
+    "title": "Work Experience",
+    "period": "2024 - Present",
+
     "frontend": {
-      "title": "Frontend",
-      "desc": "Build the front-end portion of websites and web applications. The part users see and interact with.",
-      "skills": ["React Js", "TailwindCss", "Vue.js"]
+      "title": "Frontend Development",
+      "desc": "Development of modern, responsive, and interactive user interfaces. Focus on user experience and integration of UI designs into functional web applications.",
+      "skills": ["React.js", "Vue.js", "TailwindCSS"],
+      "added_skills": [
+        "UI integration",
+        "Responsive design",
+        "Component-based architecture"
+      ]
     },
+
     "uiux": {
-      "title": "UX / UI",
-      "desc": "Interactive and visual design principles on websites and web applications for a positive and cohesive user experience.",
-      "skills": ["Figma", "Adobe Xd", "Canvas", "Photoshop"]
+      "title": "UX / UI Design",
+      "desc": "Design of user interfaces and improvement of user experience through modern, consistent and user-centered design principles.",
+      "skills": ["Figma", "Adobe XD", "Photoshop"],
+      "added_skills": ["Design systems", "Prototyping", "User-centered design"]
     },
+
     "backend": {
-      "title": "Backend",
-      "desc": "Build and maintain the mechanisms that process data, security and perform actions on websites.",
-      "skills": ["Laravel", "NodeJs", "Express Js", "Mongo DB ( Mongoose )"]
+      "title": "Backend Development",
+      "desc": "Design, development, and maintenance of backend systems, APIs, and databases to ensure performance, security, and scalability.",
+      "skills": ["Laravel", "Node.js", "Express.js", "MongoDB (Mongoose)"],
+      "added_skills": [
+        "REST API design",
+        "Database architecture",
+        "Security fundamentals"
+      ]
+    },
+
+    "project_management": {
+      "title": "Project Management & Leadership",
+      "desc": "Planning, coordinating, and managing web projects. Collaboration between technical, design, and client teams with a structured approach.",
+      "skills": ["Team coordination", "Planning", "Communication"],
+      "added_skills": [
+        "Leadership",
+        "Agile basics",
+        "Technical decision making",
+        "System thinking"
+      ]
+    },
+
+    "architecture": {
+      "title": "System Design & Software Architecture",
+      "desc": "Designing system architecture before development to ensure a scalable, structured, and maintainable software foundation.",
+      "skills": ["UML", "MERISE", "System analysis"],
+      "added_skills": ["Software architecture thinking", "Functional analysis"]
     }
   },
+
   "projects": {
     "title": "My Recents Projects",
-
+    "sasayee": {
+      "desc": "Sassayee.com is an e-commerce marketplace currently under active development and continuously evolving. It enables the sale of IT and electronic products through a modern architecture built with Laravel and Vue.js. The project is actively maintained, with ongoing improvements focused on performance, scalability, and user experience.",
+      "view": "View more"
+    },
     "claudinestore": {
       "desc": "  Human resources management application for Claudine Store. It allows for employee tracking, payroll management, and automatic payslip generation, offering a reliable, fast, and secure solution to simplify administrative management. Also included is the creation of an e-commerce platform for selling computer and electronic equipment, developed with Laravel for the back-end user interface and Tailwind CSS and Chart.js for a modern, responsive, and high-performance design.  ",
       "view": "View more"
