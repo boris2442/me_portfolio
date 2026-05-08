@@ -42,14 +42,14 @@ function App() {
     <HelmetProvider>
       <Helmet>
         {/* Métadonnées de base */}
-        <title>Aubin Boris Simo | Développeur Full Stack & Designer</title>
+        <title>Aubin Boris Simo </title>
         <meta
           name="description"
           content="Portfolio professionnel de Boris Aubin : Développeur Full Stack, Chef de projet et Designer UI/UX au Cameroun."
         />
         <meta
           name="keywords"
-          content="CV développeur, Laravel, React, Cameroun, Boris Aubin"
+          content="CV développeur, Laravel, React, Cameroun, Boris Aubin SIMO TSEBO, portfolio, chef de projet digital, designer UI/UX"
         />
         <link rel="canonical" href="https://borisaubin.vercel.app/" />
 
@@ -60,7 +60,7 @@ function App() {
         />
         <meta
           property="og:description"
-          content="Découvrez mes projets innovants et mon expertise en développement web."
+          content="Découvrez mes projets innovants et mon expertise en développement web. Explorez mon parcours professionnel et mes compétences en tant que développeur full stack, chef de projet digital et designer UI/UX ."
         />
         <meta
           property="og:image"
