@@ -1,6 +1,6 @@
 import profil from "../assets/me2.png";
 import { FaCheck } from "react-icons/fa";
-import mycv from "../assets/Credo-CV.pdf";
+import mycv from "../assets/cv-aubin-boris-simo.pdf";
 import { useTranslation } from "react-i18next";
 import ImageWithSkeleton from "./ImageWithSkeleton";
 export default function Home() {
@@ -14,9 +14,11 @@ export default function Home() {
         </h1>
         <p>{t("home.description")}</p>
         <div className="buttons">
-          {/* <button className="cv">
-            <a download="Credo-CV.pdf" href={mycv}>{t('home.download_cv')}</a>
-          </button> */}
+          <button className="cv">
+            <a download="cv-aubin-boris-simo.pdf" href={mycv}>
+              {t("home.download_cv")}
+            </a>
+          </button>
         </div>
       </div>
       <div className="profil">
