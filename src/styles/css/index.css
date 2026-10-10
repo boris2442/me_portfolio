@@ -1044,7 +1044,7 @@ h1{
 }
 
 .contact form label {
-  font-weight: 3s00;
+  font-weight: 100;
   font-size: 0.875rem;
   color: rgba(0, 0, 0, 0.503);
 }
@@ -1173,7 +1173,7 @@ section h2::after {
   border: 1px solid #2d2d2d;
   background: #EEA01E;
   color: #fff;
-  font-weight: 600;
+  font-weight: 100;
   font-size: 12px;
   margin-left: 1rem;
   transition: border 0.2s, background 0.2s;

@@ -16,7 +16,7 @@
     "role": " Software Engineer && Digital Project Lead",
     "description": "I Design and code beautifully Web Application and I love what I do",
     "download_cv": "Download My Cv",
-    "web_developer_title": "Web Developer",
+    "web_developer_title": "Full-Stack Developer",
     "web_developer_desc": "Creatives Websites for you",
     "freelancer_title": "Digital Project Lead",
     "freelancer_desc": "You can hire me now"
@@ -24,7 +24,7 @@
   "about": {
     "title": "About me",
     "subtitle": "Developing With a Passion While Exploring The World.",
-    "description": "Since beginning my journey as a Web developer, I've done remote work for agencies, consulted for startups, and collaborated with talented people to create digital products for both business and consumer use. I’m quietly confident, naturally curious, and perpetually working on improving my chops and problem solving.",
+    "description": "Since beginning my journey as a ful-stack developer, I've done remote work for agencies, consulted for startups, and collaborated with talented people to create digital products for both business and consumer use. I’m quietly confident, naturally curious, and perpetually working on improving my chops and problem solving.",
     "contact": "Contact me",
     "follow": "You can also follow me here:",
     "github": "GITHUB",
@@ -146,6 +146,10 @@
 
   "projects": {
     "title": "My Recents Projects",
+     "academiapro": {
+      "desc": "AcademiaPRO is a comple system for secondary education school . Print, Statistics, administratifs documents , schedule and other",
+      "view": "Voir plus"
+    },
     "sasayee": {
       "desc": "Sassayee.com is an e-commerce marketplace currently under active development and continuously evolving. It enables the sale of IT and electronic products through a modern architecture built with Laravel and Vue.js. The project is actively maintained, with ongoing improvements focused on performance, scalability, and user experience.",
       "view": "View more"

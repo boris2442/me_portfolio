@@ -16,7 +16,7 @@
     "role": "Software Engineer && Digital Project Lead",
     "description": "Je conçois et développe de belles applications web et j'aime ce que je fais",
     "download_cv": "Télécharger mon CV",
-    "web_developer_title": "Développeur Web",
+    "web_developer_title": "Full Stack  Developpeur",
     "web_developer_desc": "Des sites créatifs pour vous",
     "freelancer_title": "Chef de projet digital",
     "freelancer_desc": "Vous pouvez m'engager dès maintenant"
@@ -24,7 +24,7 @@
   "about": {
     "title": "À propos de moi",
     "subtitle": "Développer avec passion tout en explorant le monde.",
-    "description": "Depuis le début de mon parcours en tant que développeur web, j'ai travaillé à distance pour des agences, conseillé des startups et collaboré avec des personnes talentueuses pour créer des produits numériques pour les entreprises et les particuliers. Je suis discrètement confiant, naturellement curieux et je travaille sans cesse à améliorer mes compétences et ma capacité à résoudre des problèmes.",
+    "description": "Depuis le début de mon parcours en tant que développeur full-stack, j'ai travaillé à distance pour des agences, conseillé des startups et collaboré avec des personnes talentueuses pour créer des produits numériques pour les entreprises et les particuliers. Je suis discrètement confiant, naturellement curieux et je travaille sans cesse à améliorer mes compétences et ma capacité à résoudre des problèmes.",
     "contact": "Contactez-moi",
     "follow": "Vous pouvez aussi me suivre ici :",
     "github": "GITHUB",
@@ -148,6 +148,10 @@
 
   "projects": {
     "title": "Mes projets récents",
+    "academiapro": {
+      "desc": "AcademiaPRO est un systeme complet d'etablissement scolaire secondaire . Impressions, statistiques, documents admnistratifs, emplois de temps",
+      "view": "Voir plus"
+    },
     "sasayee": {
       "desc": "Sassayee.com est une marketplace e-commerce en cours de développement, évoluant chaque jour. Elle permet la vente de produits informatiques et électroniques avec une architecture moderne basée sur Laravel et Vue.js. Le projet est actuellement actif avec amélioration continue, intégrant des fonctionnalités avancées de gestion, de performance et d’expérience utilisateur.",
       "view": "Voir plus"
