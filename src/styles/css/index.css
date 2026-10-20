@@ -1339,3 +1339,15 @@ section h2::after {
 
 
 
+.share-link {
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+.share-link.copied {
+  background: #31525b;
+  color: #31525b;
+}
+
+
