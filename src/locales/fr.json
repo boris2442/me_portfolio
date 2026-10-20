@@ -4,6 +4,7 @@
     "about": "À propos de moi",
     "services": "Services",
     "experiences": "Expériences",
+    "certifications": "Certifications",
     "projects": "Projets"
   },
   "header": {
@@ -143,6 +144,27 @@
       "desc": "Conception de l’architecture des systèmes web avant développement afin d’assurer une structure logique, scalable et maintenable.",
       "skills": ["UML", "MERISE", "System analysis"],
       "added_skills": ["Software architecture thinking", "Functional analysis"]
+    }
+  },
+
+  "certifications": {
+    "title": "Certifications professionnelles",
+    "yearLabel": "Année",
+    "skillLabel": "Compétence",
+    "credentialLabel": "Identifiant",
+    "view": "Voir le certificat",
+    "items": {
+      "sqlBasic": {
+        "name": "SQL (Basic) Skill Certificate",
+        "date": "Octobre 2026",
+        "skill": "Relational Databases"
+      },
+      "sqlAdvanced": {
+        "name": "SQL (Advanced) Skill Certificate",
+        "date": "Octobre 2026",
+        "skill": "Database management",
+        "credentialId": "FDOC79B0E8BA"
+      }
     }
   },
 

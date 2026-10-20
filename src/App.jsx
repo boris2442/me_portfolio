@@ -6,6 +6,7 @@ import Home from "./components/Home";
 import About from "./components/About";
 import Services from "./components/Services";
 import Experiences from "./components/Experiences";
+import Certifications from "./components/Certifications";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import FloatingButtons from "./components/FloatingButtons";
@@ -90,6 +91,7 @@ function App() {
         <About />
         <Services />
         <Experiences />
+        <Certifications />
         <Projects />
         <Contact />
         <Toaster />

@@ -9,12 +9,13 @@ export default function Navigation() {
   const [currentLink, setCurrentLink] = useState(0);
   const [hamburgerOpen, setHamburgerOpen] = useState(false);
 
-  const navLikns = [
-    t('navigation.home'),
-    t('navigation.about'),
-    t('navigation.services'),
-    t('navigation.experiences'),
-    t('navigation.projects')
+  const navLinks = [
+    { id: "Home", label: t("navigation.home") },
+    { id: "About me", label: t("navigation.about") },
+    { id: "Services", label: t("navigation.services") },
+    { id: "Experiences", label: t("navigation.experiences") },
+    { id: "Certifications", label: t("navigation.certifications") },
+    { id: "Projects", label: t("navigation.projects") },
   ];
 
   const handleActiveLink = (index) => {
@@ -30,13 +31,13 @@ export default function Navigation() {
         }
       </div>
       <ul className={hamburgerOpen ? 'mobile-menu' : ''}>
-        {navLikns.map((link, index) => (
+        {navLinks.map(({ id, label }, index) => (
           <li
             key={index}
             onClick={() => handleActiveLink(index)}
             className={currentLink == index ? "active" : ""}
           >
-            <a href={'#' + link}>{link}</a>
+            <a href={`#${id}`}>{label}</a>
           </li>
         ))}
       </ul>

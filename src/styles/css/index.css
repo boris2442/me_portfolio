@@ -1274,6 +1274,87 @@ section h2::after {
   transition: transform 0.3s ease;
 }
 
+.certifications {
+  color: #31525b;
+}
+
+.certifications .content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 18rem), 21rem));
+  justify-content: center;
+  gap: 1.25rem;
+}
+
+.certifications .certification-card {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1.5rem;
+  border: 1px solid rgba(49, 82, 91, 0.12);
+  border-radius: 0.75rem;
+  background: white;
+  box-shadow: 0 8px 24px rgba(49, 82, 91, 0.1);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.certifications .certification-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 28px rgba(49, 82, 91, 0.16);
+}
+
+.certifications .certification-card h3 {
+  margin: 0;
+  font-size: 1.125rem;
+}
+
+.certifications .certification-card dl {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin: 0;
+}
+
+.certifications .certification-card dl > div {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.certifications .certification-card dt {
+  font-weight: 600;
+}
+
+.certifications .certification-card dd {
+  margin: 0;
+  text-align: right;
+}
+
+.certifications .certification-card > a {
+  display: inline-flex;
+  align-items: center;
+  align-self: flex-start;
+  gap: 0.5rem;
+  margin-top: auto;
+  padding: 0.65rem 0.9rem;
+  border-radius: 0.4rem;
+  background: #31525b;
+  color: white;
+  text-decoration: none;
+  transition: background-color 0.2s ease;
+}
+
+.certifications .certification-card > a:hover {
+  background: #ffa101;
+}
+
+.certifications .certification-provider {
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+  color: #1ba94c;
+  font-weight: 600;
+}
+
 .social-sidebar {
   position: fixed;
   left: 18px;
@@ -1349,5 +1430,4 @@ section h2::after {
   background: #31525b;
   color: #31525b;
 }
-
 

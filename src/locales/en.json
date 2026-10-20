@@ -4,6 +4,7 @@
     "about": "About me",
     "services": "Services",
     "experiences": "Experiences",
+    "certifications": "Certifications",
     "projects": "Projects"
   },
   "header": {
@@ -141,6 +142,27 @@
       "desc": "Designing system architecture before development to ensure a scalable, structured, and maintainable software foundation.",
       "skills": ["UML", "MERISE", "System analysis"],
       "added_skills": ["Software architecture thinking", "Functional analysis"]
+    }
+  },
+
+  "certifications": {
+    "title": "Professional Certifications",
+    "yearLabel": "Year",
+    "skillLabel": "Skill",
+    "credentialLabel": "Credential ID",
+    "view": "View certificate",
+    "items": {
+      "sqlBasic": {
+        "name": "SQL (Basic) Skill Certificate",
+        "date": "October 2026",
+        "skill": "SQL"
+      },
+      "sqlAdvanced": {
+        "name": "SQL (Advanced) Skill Certificate",
+        "date": "October 2026",
+        "skill": "SQL",
+        "credentialId": "FDOC79B0E8BA"
+      }
     }
   },
 
