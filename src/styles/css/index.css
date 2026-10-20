@@ -1274,6 +1274,58 @@ section h2::after {
   transition: transform 0.3s ease;
 }
 
+.social-sidebar {
+  position: fixed;
+  left: 18px;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  z-index: 1000;
+}
+
+.social-link {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  text-decoration: none;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.18);
+  transition: transform 0.25s ease, filter 0.25s ease, box-shadow 0.25s ease;
+}
+
+.social-link:hover {
+  transform: translateX(4px) scale(1.08);
+  filter: brightness(1.08);
+}
+
+.social-link.whatsapp {
+  background: #25d366;
+}
+
+.social-link.linkedin {
+  background: #0a66c2;
+}
+
+.social-link.facebook {
+  background: #1877f2;
+}
+
+@media (max-width: 768px) {
+  .social-sidebar {
+    left: 12px;
+    gap: 10px;
+  }
+
+  .social-link {
+    width: 42px;
+    height: 42px;
+  }
+}
 
 /* pourcentage-project */
 
@@ -1282,3 +1334,8 @@ section h2::after {
   justify-content: space-between;
   width: 90%;
 }
+
+
+
+
+

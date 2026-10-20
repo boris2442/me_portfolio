@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
 import { FaArrowUp, FaWhatsapp } from "react-icons/fa";
 
-
 export default function FloatingButtons() {
   const [isVisible, setIsVisible] = useState(false);
 
@@ -29,6 +28,11 @@ export default function FloatingButtons() {
     <div className="floating-container">
       {isVisible && (
         <>
+          {/* Back to Top à droite */}
+          <button onClick={scrollToTop} className="floating-btn back-to-top">
+            <FaArrowUp size={20} />
+          </button>
+
           {/* WhatsApp à gauche */}
           <a
             href="https://wa.me/679135177"
@@ -39,11 +43,6 @@ export default function FloatingButtons() {
           >
             <FaWhatsapp size={22} />
           </a>
-
-          {/* Back to Top à droite */}
-          <button onClick={scrollToTop} className="floating-btn back-to-top">
-            <FaArrowUp size={20} />
-          </button>
         </>
       )}
     </div>

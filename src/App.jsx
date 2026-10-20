@@ -9,6 +9,7 @@ import Experiences from "./components/Experiences";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import FloatingButtons from "./components/FloatingButtons";
+import SocialSidebar from "./components/SocialSidebar";
 import "./styles/css/index.css";
 import "aos/dist/aos.css";
 
@@ -93,6 +94,7 @@ function App() {
         <Contact />
         <Toaster />
       </main>
+      <SocialSidebar />
       <Footer />
       <FloatingButtons />
     </HelmetProvider>
