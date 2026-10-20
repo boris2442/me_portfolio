@@ -113,7 +113,7 @@ export default function SocialSidebar() {
         setCopied(false);
       }, 2000);
     } catch (error) {
-      console.error("Impossible de copier le lien :", error);
+     // console.error("Impossible de copier le lien :", error);
     }
   };
 
